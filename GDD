@@ -1,0 +1,109 @@
+GameName: CropChaos
+GameType: Rougelike Farming + Cooking
+
+Marketing 
+	-> Youtube Channel
+		-> not dev logs rather
+			videos answering 
+			questions
+			Eg: why do gamedevs 
+				use hitboxes		
+Platform
+	-> Android
+	-> Linux -> easter egg
+	-> Windows (smh)
+
+HUD 
+	-> "If replaced show both"
+	 	eg: Minecraft freeze
+
+
+Starting 
+	-> You wake up with x mins/day to 
+		survive from hunger
+		1 life 
+		Nothing just bare bones 
+
+Day 1:
+
+	- forage for plants 
+		-> Immediate food source
+	- collects stones 
+		- Campfire for cooking
+				and warmth
+		- Tools
+			with wood branches
+			from ground
+	- break grass
+		- For fiber and seeds
+			- Fiber 
+
+	- Gains strength 
+		- increasing duration of day
+
+
+I want him to try different tatics
+	-> kill
+		-> if I dont kill they wont
+			experiment
+
+X
+	-> 5mins
+		then builds up
+		
+
+Farming 
+	-> Planting
+	-> Irrigation
+	-> Harvesting
+
+Cooking
+	- Cooking
+
+DEV 
+	-> I want terrain 
+		with folliage
+		like
+
+
+trees -> can be cut
+branches of tress -> can be cut
+grasses -> can be sythed
+
+
+grasses 
+	-> grass block
+		x-> actual Grass 
+		x-> just block
+		x-> can be cleared/
+					hoed
+		?->drop for compost ?
+
+trees 
+	x-> One type
+		?> More types for future
+
+Grass
+	-> Fiber(MAT) -> For composter or
+				for fuel
+				-> For making tools
+	-> Seeds(RES) -> Random seed might
+				give plant
+	-> Herbs(RES)
+		->Extra
+			income
+
+Trees
+	-> Logs(MAT) -> For fuel -> to make cooked food 
+
+why grass ?
+	-> regrowth time 3 days
+	-> It could drop seeds but 
+		not realistic
+	-> It could be used for compste
+		as a replacement for store
+		bought compost
+		- more budget for upgrades
+
+why trees ?
+	-> For fuel in campfire	
