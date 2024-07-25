@@ -29,7 +29,7 @@ typedef struct TileManager{
 void placeTile(TileManager *tileManager, Tile *tile );
 Tile nullTile();
 int getNumOfPossibilites(Tile *tile);
-void dumbTiles(TileManager *tileManager);
+void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities);
 void renderTiles(TileManager *tileManager);
 void initTilemanager(TileManager *tileManager);
 

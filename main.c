@@ -27,6 +27,7 @@ typedef struct Block
   Size size;
 }Block ;
 
+void renderEntities(Entity *entities,int num);
 
 int main(void){
 
@@ -45,9 +46,12 @@ int main(void){
   camera.rotation = 0.0f;
   camera.zoom = 1.0f;
 
+  Entity entities[TILE_MAX_X*TILE_MAX_Y];
+  int num_enities;
+
   TileManager tileManager;
   initTilemanager(&tileManager);
-  dumbTiles(&tileManager);
+  dumbTiles(&tileManager,entities,&num_enities);
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
@@ -60,6 +64,7 @@ int main(void){
       BeginMode2D(camera);
       ClearBackground(BLACK);
       renderTiles(&tileManager);
+      renderEntities(entities,num_enities);
       renderPlayer(&player,&camera);
       EndMode2D();
     EndDrawing();
@@ -72,4 +77,12 @@ int main(void){
 }
 
 
+void renderEntities(Entity *entities,int num)
+{
+  for (int i =0 ; i<num; i++)
+  {
+    DrawTexture(entities->sprite,entities->position.x, entities->position.y,WHITE);
+    entities ++;
+  }
+}
 

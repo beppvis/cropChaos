@@ -11,6 +11,22 @@ enum ItemTypes
   EQUIPMENT,
   NUM_ITEMS,
 }ItemTypes;
+
+enum EntityType
+{
+  NULL_ENTITY,
+  BLOCK,
+  ENEMY,
+  NUM_ENTITIES,
+}EntityType;
+
+typedef struct Entity
+{
+  Texture sprite;
+  int entityType;
+  Vector2 position;
+}Entity;
+
 typedef struct Size
 {
   float width;

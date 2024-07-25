@@ -170,9 +170,11 @@ void renderTiles(TileManager *tileManager)
   }
 }
 
-void dumbTiles(TileManager *tileManager)
+void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
 {
-  static Texture2D *env_items;
+
+  static Entity (env_items[TILE_MAX_X*TILE_MAX_Y]);
+  int num = 0;
   for (int y = 0;y<TILE_MAX_Y;y++)
   {
     for (int x = 0;x<TILE_MAX_X;x++)
@@ -183,17 +185,23 @@ void dumbTiles(TileManager *tileManager)
       placeTile(tileManager,&tile);
       char sIndex[50];
       SetRandomSeed(time(NULL));
-      int random_num = GetRandomValue(1, 10);
-      if (random_num >= 2)
+      int random_num = GetRandomValue(1,3);
+      if (random_num )
       {
         printf("HUH\n");
         Texture2D berries = LoadTexture("./assets/grass.png");
         Rectangle source_rec = {0,0,berries.width,berries.height};
         Rectangle dest_rec = {x,y,50,50};
-        DrawTexturePro(berries, source_rec,dest_rec,(Vector2){0,0} ,0.0f ,WHITE);
+        Vector2 position = {x,y};
+        env_items[num] = (Entity){berries,
+                              BLOCK,
+                              position};
+        num ++;
       }
       // sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
       // DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
     }
   }
+  entities = env_items;
+  *num_entities = num;
 }
