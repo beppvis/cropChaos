@@ -3,6 +3,7 @@
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
+#include "entities.c"
 
 //                       
 
@@ -18,15 +19,6 @@ Reminder : This is the TEST Folder
 */
 
 
-
-typedef struct Block 
-{
-  Vector2i position;
-  Color color;
-  Rectangle box;
-  Size size;
-}Block ;
-
 void renderEntities(Entity *entities,int num);
 
 int main(void){
@@ -35,10 +27,6 @@ int main(void){
   InitWindow(screenSize.width,screenSize.height,"Crop");
   Player player;
   initPlayer(&player);
-  Block block;
-  block.position = (Vector2i) {100,100};
-  block.color = BLACK;
-  block.size = (Size){10,10};
 
   Camera2D camera = {0};
   camera.target = (Vector2){player.position.x + 20.0f,player.position.y+20.0f};
@@ -48,6 +36,7 @@ int main(void){
 
   Entity entities[TILE_MAX_X*TILE_MAX_Y];
   int num_enities;
+  Texture2D entities_texture[NUM_ENTITIES];
 
   TileManager tileManager;
   initTilemanager(&tileManager);
@@ -64,7 +53,6 @@ int main(void){
       BeginMode2D(camera);
       ClearBackground(BLACK);
       renderTiles(&tileManager);
-      renderEntities(entities,num_enities);
       renderPlayer(&player,&camera);
       EndMode2D();
     EndDrawing();
@@ -77,12 +65,4 @@ int main(void){
 }
 
 
-void renderEntities(Entity *entities,int num)
-{
-  for (int i =0 ; i<num; i++)
-  {
-    DrawTexture(entities->sprite,entities->position.x, entities->position.y,WHITE);
-    entities ++;
-  }
-}
 

@@ -2,7 +2,6 @@
 #include <raylib.h>
 #include <raymath.h>
 #include <stdio.h>
-#include <math.h>
 
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160

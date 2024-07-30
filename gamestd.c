@@ -3,6 +3,7 @@
 #include "gamestd.h"
 
 
+
 Rectangle getRect(Vector2 position,Size size)
 {
   return (Rectangle) {position.x,position.y,size.width,size.height};
@@ -15,4 +16,6 @@ Color getItemColor(Item item)
   }
   return RED;
 }
+
+
 
