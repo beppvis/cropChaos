@@ -4,6 +4,7 @@
 #include <stdbool.h>
 #include "time.h"
 #ifndef tilemap_h
+#define tilemap_h
 #define TILE_MAX_X 20
 #define TILE_MAX_Y 20
 #define TILE_SIZE 25

@@ -41,6 +41,8 @@ int main(void){
   TileManager tileManager;
   initTilemanager(&tileManager);
   dumbTiles(&tileManager,entities,&num_enities);
+  loadTextureEntities(entities_texture);
+  initEntities(entities,num_enities,entities_texture);
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
@@ -53,6 +55,7 @@ int main(void){
       BeginMode2D(camera);
       ClearBackground(BLACK);
       renderTiles(&tileManager);
+      renderEntities(entities, num_enities);
       renderPlayer(&player,&camera);
       EndMode2D();
     EndDrawing();

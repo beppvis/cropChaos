@@ -89,7 +89,6 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 
   Vector2 diff= Vector2Subtract(player->position,camera->target);
   float diff_length = Vector2Length(diff);
-  printf("Cam dist : %f\n",diff_length);
   // if (diff_length > CAM_LIM)
   // {
   //   float speed = fmaxf(fractionSpeed*diff_length,minSpeed);

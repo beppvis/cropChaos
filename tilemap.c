@@ -174,7 +174,9 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
 {
 
   static Entity (env_items[TILE_MAX_X*TILE_MAX_Y]);
+
   int num = 0;
+
   for (int y = 0;y<TILE_MAX_Y;y++)
   {
     for (int x = 0;x<TILE_MAX_X;x++)
@@ -186,22 +188,22 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
       char sIndex[50];
       SetRandomSeed(time(NULL));
       int random_num = GetRandomValue(1,3);
-      if (random_num )
+      if (1)
       {
-        printf("HUH\n");
-        Texture2D berries = LoadTexture("./assets/grass.png");
-        Rectangle source_rec = {0,0,berries.width,berries.height};
-        Rectangle dest_rec = {x,y,50,50};
+        // Texture2D berries = LoadTexture("./assets/grass.png");
+        // Rectangle source_rec = {0,0,berries.width,berries.height};
+        // Rectangle dest_rec = {x,y,50,50};
         Vector2 position = {x,y};
-        env_items[num] = (Entity){berries,
-                              BLOCK,
-                              position};
+        *entities= (Entity){
+                              .entityType = BLOCK,
+                              .position = position};
+        printf("positions are : %f, %f",position.x,position.y);
+        entities ++;
         num ++;
       }
       // sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
       // DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
     }
   }
-  entities = env_items;
   *num_entities = num;
 }
