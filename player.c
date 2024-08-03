@@ -62,7 +62,7 @@ void renderHUD(Player *player)
 {
   char s[50];
   sprintf(s,"Hunger : %f" ,player->hunger);
-  DrawTextPro(GetFontDefault(),s,(Vector2){GetScreenWidth(),GetScreenHeight()}, (Vector2){0,0}, 0, 10, 2,WHITE );
+  DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
   
 }
 

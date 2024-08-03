@@ -58,8 +58,9 @@ int main(void){
       renderEntities(entities, num_enities);
       renderPlayer(&player,&camera);
       EndMode2D();
+    renderHUD(&player);
     EndDrawing();
-
+  
   }  
   CloseWindow();
 
