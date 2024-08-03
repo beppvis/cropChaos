@@ -161,10 +161,12 @@ void renderTiles(TileManager *tileManager)
       Vector2i index = {x,y};
       Tile tile = getTile(index, tileManager);
       setColor(&tile);
-      DrawRectangle(tile.position.x,tile.position.y ,100 ,100 , tile.color);
+      DrawRectangle(tile.position.x,tile.position.y ,TILE_SIZE,TILE_SIZE, tile.color);
       char sIndex[50];
+
       if (!IsKeyDown(DBG_KEY)) continue;
       sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
+      DrawRectangleLines(tile.position.x,tile.position.y ,TILE_SIZE,TILE_SIZE, RED);
       DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
     }
   }

@@ -7,7 +7,7 @@
 #define tilemap_h
 #define TILE_MAX_X 20
 #define TILE_MAX_Y 20
-#define TILE_SIZE 25
+#define TILE_SIZE 50
 #define WATER_MAX 10
 #define NUM_OF_TYPES 4
 
