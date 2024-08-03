@@ -1,7 +1,10 @@
-#include "raylib.h"
-#include "gamestd.h"
 #ifndef player_h
 #define player_h
+
+#include "raylib.h"
+#include "gamestd.h"
+#include "items.c"
+
 typedef struct Player
 {
   Vector2 position;
@@ -10,7 +13,7 @@ typedef struct Player
   bool isMoving;
   float speed;
   float hunger;
-  Item item;
+  Inventory inventory;
 } Player;
 
 

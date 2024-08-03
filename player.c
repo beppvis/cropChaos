@@ -55,13 +55,15 @@ void renderPlayer(Player *player, Camera2D *camera)
   Rectangle sourceRec = {0,0,player->sprite.width,player->sprite.height};
   DrawTexturePro(player->sprite, sourceRec, getRect(player->position,player->size ),(Vector2){0,0} ,0,WHITE );
   //Item
+  Vector2 diff =Vector2Subtract(player->position,camera->target);
+}
+
+void renderHUD(Player *player)
+{
   char s[50];
   sprintf(s,"Hunger : %f" ,player->hunger);
-  Vector2 diff =Vector2Subtract(player->position,camera->target);
-  DrawTextPro(GetFontDefault(),s,(Vector2){GetScreenWidth(),GetScreenHeight()}, player->position, 0, 10, 2,WHITE );
-  if (!player->item.itemType)return;
-  Vector2 itemPosition = {player->position.x+50,player->position.y+10};
-  DrawRectangleRec(getRect(itemPosition,(Size){40,40} ),getItemColor(player->item));
+  DrawTextPro(GetFontDefault(),s,(Vector2){GetScreenWidth(),GetScreenHeight()}, (Vector2){0,0}, 0, 10, 2,WHITE );
+  
 }
 
 void initPlayer(Player *player)
@@ -71,7 +73,6 @@ void initPlayer(Player *player)
   player->position = (Vector2){0,0};
   player->speed = 600.;
   player->size = (Size){100,100};
-  player->item = Bread;
   player->hunger = 0.00;
   
 }
@@ -100,4 +101,13 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 
   //   camera->target= Vector2Add(camera->target,Vector2Scale(diff,delta));
   // }
+}
+
+
+void initInventory(Inventory *inventory)
+{
+  for (int i = 0; i < PLAYER_INV_LEN ; i++)
+  {
+    inventory->MainSlots[i] = getBread();
+  }
 }

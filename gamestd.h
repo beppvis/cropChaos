@@ -2,7 +2,10 @@
 #include "raymath.h"
 #ifndef game_std_h_
 #define game_std_h_
+
 #define DBG_KEY KEY_E
+#define ITEM_WORLD_SIZE 20
+#define PLAYER_INV_LEN 10
 
 enum ItemTypes
 {
@@ -22,7 +25,7 @@ enum EntityType
 
 typedef struct Entity
 {
-  Texture sprite;
+  Texture2D sprite;
   int entityType;
   Vector2 position;
 }Entity;
@@ -41,13 +44,17 @@ typedef struct Vector2i{
 typedef struct Item
 {
   enum ItemTypes itemType;  
+  Texture2D sprite;
   Color color;
 } Item;
 
+typedef struct Inventory
+{
+  Item MainHand;
+  Item MainSlots[PLAYER_INV_LEN];
+  } Inventory;
+
 Rectangle getRect(Vector2 position,Size size);
-Color getItemColor(Item item);
 // Item -> stat up (effect)
-const Item Bread = {CONSUMABLE,BROWN};
-const Item Null = {NULL_,RED}; 
 
 #endif

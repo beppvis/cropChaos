@@ -1,10 +1,17 @@
 #include "items.h"
+#include <raylib.h>
 
 
 Color getItemColor(Item item)
 {
-  if (item.itemType == Bread.itemType){
+  if (item.itemType == 0){
     return BROWN;
   }
   return RED;
+}
+
+
+Item getBread()
+{
+  return (Item){CONSUMABLE,LoadTexture(""),BROWN};
 }
