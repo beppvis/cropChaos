@@ -13,5 +13,5 @@ Color getItemColor(Item item)
 
 Item getBread()
 {
-  return (Item){CONSUMABLE,LoadTexture(""),BROWN};
+  return (Item){CONSUMABLE,LoadTexture("assets/bread.png"),BROWN};
 }

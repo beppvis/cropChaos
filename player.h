@@ -23,6 +23,8 @@ void renderPlayer(Player *player, Camera2D *camera);
 void initPlayer(Player *player);
 void playerMovement(Player *player, float delta);
 void updateHunger(Player *player, float delta);
+void initInventory(Inventory *inventory);
+void renderInventory(Inventory inv);
 
 
 #endif

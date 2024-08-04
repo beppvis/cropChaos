@@ -50,9 +50,8 @@ typedef struct Item
 
 typedef struct Inventory
 {
-  Item MainHand;
   Item MainSlots[PLAYER_INV_LEN];
-  } Inventory;
+} Inventory;
 
 Rectangle getRect(Vector2 position,Size size);
 // Item -> stat up (effect)

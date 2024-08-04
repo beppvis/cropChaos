@@ -63,7 +63,22 @@ void renderHUD(Player *player)
   char s[50];
   sprintf(s,"Hunger : %f" ,player->hunger);
   DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
-  
+  renderInventory(player->inventory);
+}
+
+
+void renderInventory(Inventory inv)
+{
+  for (int i = 0; i< 4; i++)
+  {
+    Item item = inv.MainSlots[i];
+    Rectangle inv_rec = {GetScreenWidth()/3.+50*i,GetScreenHeight()-100,50,50};
+    Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
+    DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
+    Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
+    DrawRectangleLinesEx(inv_lines_rec,3 ,WHITE );
+  }
+
 }
 
 void initPlayer(Player *player)
@@ -74,12 +89,9 @@ void initPlayer(Player *player)
   player->speed = 600.;
   player->size = (Size){100,100};
   player->hunger = 0.00;
-  
+  initInventory(&player->inventory);
 }
 
-void renderHunger(Player *player)
-{
-}
 void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 {
 
