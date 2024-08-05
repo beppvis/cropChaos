@@ -11,6 +11,7 @@ typedef struct Player
   Texture2D sprite;
   Size size;
   bool isMoving;
+  bool inMenu;
   float speed;
   float hunger;
   Inventory inventory;

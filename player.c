@@ -1,6 +1,9 @@
 #include "player.h"
+#include "menu.c"
+#include "menu.h"
 #include <raylib.h>
 #include <raymath.h>
+#include <stdbool.h>
 #include <stdio.h>
 
 #define CAM_LIM 2  
@@ -11,8 +14,9 @@
 void updatePlayer(Player *player ,float delta)
 {
   playerMovement(player,delta);
-  updateHunger(player, delta);
   updateInventory(player);
+  updateHunger(player, delta);
+  playerMenuHandler(player);
 }
 
 
@@ -81,7 +85,12 @@ void renderPlayer(Player *player, Camera2D *camera)
   //Item
   Vector2 diff =Vector2Subtract(player->position,camera->target);
   renderHand(player);
+  if (player->inMenu)
+  { 
+    renderInventoryMenu(player);
+  }
 }
+
 
 void renderHand(Player *player)
 {
