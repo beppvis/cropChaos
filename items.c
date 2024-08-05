@@ -10,6 +10,12 @@ Color getItemColor(Item item)
   return RED;
 }
 
+Item getNullItem()
+{
+  
+  return (Item){NULL_ITEM,LoadTexture("assets/bread.png"),RED};
+
+}
 
 Item getBread()
 {

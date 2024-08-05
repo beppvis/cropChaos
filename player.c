@@ -12,6 +12,7 @@ void updatePlayer(Player *player ,float delta)
 {
   playerMovement(player,delta);
   updateHunger(player, delta);
+  updateInventory(player);
 }
 
 
@@ -41,6 +42,29 @@ void updateHunger(Player *player, float delta)
 
 }
 
+void updateInventory(Player *player)
+{
+  numToInventorySlot(player);
+}
+
+void numToInventorySlot(Player *player)
+{
+  switch(GetKeyPressed())
+  {
+    case KEY_ONE:
+      player->MainHand = 0;
+      break;
+    case KEY_TWO:
+      player->MainHand = 1;
+      break;
+    case KEY_THREE:
+      player->MainHand = 2;
+      break;
+    case KEY_FOUR:
+      player->MainHand = 3;
+      break;
+  }
+}
 
 bool isColliding(Rectangle A, Rectangle B)
 {
@@ -56,6 +80,20 @@ void renderPlayer(Player *player, Camera2D *camera)
   DrawTexturePro(player->sprite, sourceRec, getRect(player->position,player->size ),(Vector2){0,0} ,0,WHITE );
   //Item
   Vector2 diff =Vector2Subtract(player->position,camera->target);
+  renderHand(player);
+}
+
+void renderHand(Player *player)
+{
+  Item item = player->inventory.MainSlots[player->MainHand];
+  if(item.itemType != 0)
+  {
+    Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
+    Rectangle dest_rec = {player->position.x,player->position.y+20,30,30};
+    DrawTexturePro(item.sprite,source_rec ,dest_rec ,(Vector2){0,0} ,0 ,WHITE);    
+
+  }
+
 }
 
 void renderHUD(Player *player)
@@ -63,19 +101,28 @@ void renderHUD(Player *player)
   char s[50];
   sprintf(s,"Hunger : %f" ,player->hunger);
   DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
-  renderInventory(player->inventory);
+  renderInventory(*player);
 }
 
 
-void renderInventory(Inventory inv)
+void renderInventory(Player player)
 {
-  for (int i = 0; i< 4; i++)
+  Inventory inv = player.inventory;
+  for (int i = 0; i < 4; i++)
   {
     Item item = inv.MainSlots[i];
     Rectangle inv_rec = {GetScreenWidth()/3.+50*i,GetScreenHeight()-100,50,50};
-    Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
-    DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
+    if (item.itemType != 0)
+    {
+      Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
+      DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
+    }
     Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
+    if (i == player.MainHand)
+    {
+      DrawRectangleLinesEx(inv_lines_rec,3 ,BLUE);
+      continue;
+    }
     DrawRectangleLinesEx(inv_lines_rec,3 ,WHITE );
   }
 
@@ -89,7 +136,7 @@ void initPlayer(Player *player)
   player->speed = 600.;
   player->size = (Size){100,100};
   player->hunger = 0.00;
-  initInventory(&player->inventory);
+  initInventory(player);
 }
 
 void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
@@ -116,10 +163,20 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 }
 
 
-void initInventory(Inventory *inventory)
+void initInventory(Player *player)
 {
   for (int i = 0; i < PLAYER_INV_LEN ; i++)
   {
-    inventory->MainSlots[i] = getBread();
+    if ( i ==2)
+    {
+      player->inventory.MainSlots[i] = getNullItem();
+    }
+    else
+    {
+      player->inventory.MainSlots[i] = getBread();
+    }
   }
+  //Assuming its not null
+  player->MainHand = 0;
+  player->OffHand = 1;
 }

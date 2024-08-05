@@ -14,6 +14,8 @@ typedef struct Player
   float speed;
   float hunger;
   Inventory inventory;
+  int MainHand;
+  int  OffHand;
 } Player;
 
 
@@ -23,8 +25,11 @@ void renderPlayer(Player *player, Camera2D *camera);
 void initPlayer(Player *player);
 void playerMovement(Player *player, float delta);
 void updateHunger(Player *player, float delta);
-void initInventory(Inventory *inventory);
-void renderInventory(Inventory inv);
+void initInventory(Player *player);
+void renderInventory(Player player);
+void renderHand(Player *player);
+void numToInventorySlot(Player *player);
+void updateInventory(Player *player);
 
 
 #endif

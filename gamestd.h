@@ -9,7 +9,7 @@
 
 enum ItemTypes
 {
-  NULL_,
+  NULL_ITEM,
   CONSUMABLE,
   EQUIPMENT,
   NUM_ITEMS,
