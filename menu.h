@@ -10,5 +10,6 @@
 
 void playerMenuHandler(Player *player);
 void renderInventoryMenu(Player *player);
+void inventoryMouseInteraction(Player *player);
 
 #endif
