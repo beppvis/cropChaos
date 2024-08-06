@@ -46,6 +46,7 @@ typedef struct Item
   enum ItemTypes itemType;  
   Texture2D sprite;
   Color color;
+  Rectangle box;
 } Item;
 
 typedef struct Inventory

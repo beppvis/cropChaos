@@ -13,11 +13,11 @@ Color getItemColor(Item item)
 Item getNullItem()
 {
   
-  return (Item){NULL_ITEM,LoadTexture("assets/bread.png"),RED};
+  return (Item){NULL_ITEM,LoadTexture("assets/bread.png"),RED,(Rectangle){0}};
 
 }
 
 Item getBread()
 {
-  return (Item){CONSUMABLE,LoadTexture("assets/bread.png"),BROWN};
+  return (Item){CONSUMABLE,LoadTexture("assets/bread.png"),BROWN,(Rectangle){0}};
 }

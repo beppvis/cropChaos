@@ -1,5 +1,6 @@
 #include "player.h"
 #include "menu.c"
+#include "menu.h"
 #include <raylib.h>
 #include <raymath.h>
 #include <stdbool.h>
@@ -87,6 +88,7 @@ void renderPlayer(Player *player, Camera2D *camera)
   if (player->inMenu)
   { 
     renderInventoryMenu(player);
+    inventoryMouseInteraction(player,camera);
   }
 }
 

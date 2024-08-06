@@ -1,6 +1,6 @@
 #include "menu.h"
-#include "player.h"
 #include <raylib.h>
+#include <stdio.h>
 
 void playerMenuHandler(Player *player)
 {
@@ -50,51 +50,26 @@ void renderInventoryMenu(Player *player)
     {
       Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
       DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
-
+      item.box = inv_rec;
     }
     Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
     DrawRectangleLinesEx(inv_lines_rec, 1, WHITE);
   }
   
 }
-void inventoryMouseInteraction(Player *player)
+void inventoryMouseInteraction(Player *player,Camera2D *camera)
 {
   Rectangle menuBox = {player->position.x-250,player->position.y-450,500,800};
-  Vector2 mousePos = GetMousePosition();
-  //to be pasted on top not here just for DBG
-  if(IsMouseButtonPressed(MOUSE_RIGHT_BUTTON)&&!(CheckCollisionPointRec(mousePos,menuBox)))
-  {
-    return;
-  }
+  Vector2 mousePos =  GetWorldToScreen2D(GetMousePosition(),*camera);
+  printf("Mouse pos : (%f,%f)\n",mousePos.x,mousePos.y);
 
-  
   for (int i =0; i <= PLAYER_INV_LEN; i++)
   {
     Item item = player->inventory.MainSlots[i];
-    if(num <PLAYER_INV_LEN/2)
+    if (item.ps)
     {
-      pos.x = offset + player->position.x - box_size.width * (PLAYER_INV_LEN-4);
-      pos.x += 50*num;    
-      num += 1;
+      printf("Collected it \n");
     }
 
-    else
-    {
-      num = 0 ;
-      //arbitary
-      pos.y += 60;
-    }
-
-    Rectangle inv_rec = getRect(pos,box_size);
-    if (item.itemType != 0)
-    {
-      Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
-      DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
-
-    }
-    Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
-    DrawRectangleLinesEx(inv_lines_rec, 1, WHITE);
   }
-
-
 }
