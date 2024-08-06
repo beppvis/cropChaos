@@ -6,7 +6,9 @@
 
 #include "gamestd.h"
 #include "player.h"
+#define boxOffset 150
 
 void playerMenuHandler(Player *player);
+void renderInventoryMenu(Player *player);
 
 #endif

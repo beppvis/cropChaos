@@ -22,17 +22,38 @@ void renderInventoryMenu(Player *player)
 
   //rendering layout boxes
 
-  for (int i =PLAYER_INV_LEN  ; i <= 0; i--)
+  Vector2 pos ={0};
+
+  Size box_size = {50,50};
+  pos.y = player->position.y;
+  int num = 0;
+  float offset = GetScreenWidth()/2.5;
+  for (int i =0; i <= PLAYER_INV_LEN; i++)
   {
     Item item = player->inventory.MainSlots[i];
-    
-    Rectangle inv_rec = {player->position.x+50*i,player->position.y,50,50};
+    if(num <PLAYER_INV_LEN/2)
+    {
+      pos.x = offset + player->position.x - box_size.width * (PLAYER_INV_LEN-4);
+      pos.x += 50*num;    
+      num += 1;
+    }
+
+    else
+    {
+      num = 0 ;
+      //arbitary
+      pos.y += 60;
+    }
+
+    Rectangle inv_rec = getRect(pos,box_size);
     if (item.itemType != 0)
     {
       Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
       DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
+
     }
     Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
+    DrawRectangleLinesEx(inv_lines_rec, 3, WHITE);
   }
   
 }

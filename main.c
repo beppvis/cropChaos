@@ -52,12 +52,14 @@ int main(void){
     updatePlayer(&player,delta);
     cameraFollow(&camera, &player, delta, screenSize);
     BeginDrawing();
+
       BeginMode2D(camera);
-      ClearBackground(BLACK);
-      renderTiles(&tileManager);
-      renderEntities(entities, num_enities);
-      renderPlayer(&player,&camera);
+        ClearBackground(BLACK);
+        renderTiles(&tileManager);
+        renderEntities(entities, num_enities);
+        renderPlayer(&player,&camera);
       EndMode2D();
+
     renderHUD(&player);
     EndDrawing();
   
