@@ -31,7 +31,7 @@ void renderInventoryMenu(Player *player)
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
     Item *item = &player->inventory.MainSlots[i];
-    if(num <PLAYER_INV_LEN/2)
+    if(num < PLAYER_INV_LEN/2)
     {
       pos.x = offset + player->position.x - boxSize* (PLAYER_INV_LEN-4);
       pos.x += 50*num;    
@@ -62,7 +62,6 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
 {
   Rectangle menuBox = {player->position.x-250,player->position.y-450,500,800};
   Vector2 mousePos = GetScreenToWorld2D( GetMousePosition(),*camera);
-  printf("Mouse pos : (%f,%f)\n",mousePos.x,mousePos.y);
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
 
@@ -70,7 +69,8 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
     if (isInside(boxSize, item.inv_pos,mousePos)&&IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
     {
       player->inventory.item_grabbed = item;
-      printf("Grabbed\n");
+      printf("Mouse pos : (%f,%f)\n",mousePos.x,mousePos.y);
+      printf("Grabbed pos (%f,%f)\n",item.inv_pos.x,item.inv_pos.y);
     }
 
   }
