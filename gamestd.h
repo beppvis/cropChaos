@@ -46,15 +46,18 @@ typedef struct Item
   enum ItemTypes itemType;  
   Texture2D sprite;
   Color color;
-  Rectangle box;
+  Vector2 inv_pos;
 } Item;
 
 typedef struct Inventory
 {
   Item MainSlots[PLAYER_INV_LEN];
+  Item item_grabbed;
+  bool menu_open;
 } Inventory;
 
 Rectangle getRect(Vector2 position,Size size);
+bool isInside(int size_A,Vector2 posA ,Vector2 posB);
 // Item -> stat up (effect)
 
 #endif

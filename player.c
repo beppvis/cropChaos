@@ -16,7 +16,7 @@ void updatePlayer(Player *player ,float delta)
   playerMovement(player,delta);
   updateInventory(player);
   updateHunger(player, delta);
-  playerMenuHandler(player);
+  playerMenuHandler(&player->inventory);
 }
 
 
@@ -85,10 +85,11 @@ void renderPlayer(Player *player, Camera2D *camera)
   //Item
   Vector2 diff =Vector2Subtract(player->position,camera->target);
   renderHand(player);
-  if (player->inMenu)
+  if (player->inventory.menu_open)
   { 
     renderInventoryMenu(player);
     inventoryMouseInteraction(player,camera);
+    ItemMouse(&player->inventory,*camera);
   }
 }
 
@@ -187,6 +188,8 @@ void initInventory(Player *player)
     }
   }
   //Assuming its not null
+  player->inventory.menu_open = false;
+  player->inventory.item_grabbed = getNullItem();
   player->MainHand = 0;
   player->OffHand = 1;
 }
