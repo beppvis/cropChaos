@@ -189,7 +189,7 @@ void initInventory(Player *player)
   }
   //Assuming its not null
   player->inventory.menu_open = false;
-  player->inventory.item_grabbed = getNullItem();
+  player->inventory.item_grabbed_index = 0;
   player->MainHand = 0;
   player->OffHand = 1;
 }

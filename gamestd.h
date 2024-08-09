@@ -52,7 +52,7 @@ typedef struct Item
 typedef struct Inventory
 {
   Item MainSlots[PLAYER_INV_LEN];
-  Item item_grabbed;
+  int item_grabbed_index;
   bool menu_open;
 } Inventory;
 

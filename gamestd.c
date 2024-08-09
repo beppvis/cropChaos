@@ -10,7 +10,7 @@ Rectangle getRect(Vector2 position,Size size)
 
 bool isInside(int size_A,Vector2 posA,Vector2 posB)
 {
-  if (posB.x <= (size_A + posA.x) && posB.y <= (size_A + posA.y))
+  if ((posB.x <= (size_A + posA.x) && posB.y <= (size_A + posA.y))&&(posB.x > posA.x &&posB.y > posA.y))
   {
     return true;
   }
