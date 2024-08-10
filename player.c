@@ -180,11 +180,11 @@ void initInventory(Player *player)
   {
     if ( i ==2)
     {
-      player->inventory.MainSlots[i] = getNullItem();
+      player->inventory.MainSlots[i] = getBread();
     }
     else
     {
-      player->inventory.MainSlots[i] = getBread();
+      player->inventory.MainSlots[i] = getNullItem();
     }
   }
   //Assuming its not null
