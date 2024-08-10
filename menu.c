@@ -82,8 +82,6 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
       }
       if(item.itemType ==0 )return;
       inventory->item_grabbed_index = i;
-      printf("Mouse pos : (%f,%f)\n",mousePos.x,mousePos.y);
-      printf("Grabbed pos (%f,%f)\n",item.inv_pos.x,item.inv_pos.y);
       return;
     }
 
