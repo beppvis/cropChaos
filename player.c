@@ -1,6 +1,9 @@
 #include "player.h"
+#include "menu.c"
+#include "menu.h"
 #include <raylib.h>
 #include <raymath.h>
+#include <stdbool.h>
 #include <stdio.h>
 
 #define CAM_LIM 2  
@@ -11,7 +14,9 @@
 void updatePlayer(Player *player ,float delta)
 {
   playerMovement(player,delta);
+  updateInventory(player);
   updateHunger(player, delta);
+  playerMenuHandler(&player->inventory);
 }
 
 
@@ -41,6 +46,29 @@ void updateHunger(Player *player, float delta)
 
 }
 
+void updateInventory(Player *player)
+{
+  numToInventorySlot(player);
+}
+
+void numToInventorySlot(Player *player)
+{
+  switch(GetKeyPressed())
+  {
+    case KEY_ONE:
+      player->MainHand = 0;
+      break;
+    case KEY_TWO:
+      player->MainHand = 1;
+      break;
+    case KEY_THREE:
+      player->MainHand = 2;
+      break;
+    case KEY_FOUR:
+      player->MainHand = 3;
+      break;
+  }
+}
 
 bool isColliding(Rectangle A, Rectangle B)
 {
@@ -55,13 +83,60 @@ void renderPlayer(Player *player, Camera2D *camera)
   Rectangle sourceRec = {0,0,player->sprite.width,player->sprite.height};
   DrawTexturePro(player->sprite, sourceRec, getRect(player->position,player->size ),(Vector2){0,0} ,0,WHITE );
   //Item
+  Vector2 diff =Vector2Subtract(player->position,camera->target);
+  renderHand(player);
+  if (player->inventory.menu_open)
+  { 
+    renderInventoryMenu(player);
+    inventoryMouseInteraction(player,camera);
+    ItemMouse(&player->inventory,*camera);
+  }
+}
+
+
+void renderHand(Player *player)
+{
+  Item item = player->inventory.MainSlots[player->MainHand];
+  if(item.itemType != 0)
+  {
+    Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
+    Rectangle dest_rec = {player->position.x,player->position.y+20,30,30};
+    DrawTexturePro(item.sprite,source_rec ,dest_rec ,(Vector2){0,0} ,0 ,WHITE);    
+
+  }
+
+}
+
+void renderHUD(Player *player)
+{
   char s[50];
   sprintf(s,"Hunger : %f" ,player->hunger);
-  Vector2 diff =Vector2Subtract(player->position,camera->target);
-  DrawTextPro(GetFontDefault(),s,(Vector2){GetScreenWidth(),GetScreenHeight()}, player->position, 0, 10, 2,WHITE );
-  if (!player->item.itemType)return;
-  Vector2 itemPosition = {player->position.x+50,player->position.y+10};
-  DrawRectangleRec(getRect(itemPosition,(Size){40,40} ),getItemColor(player->item));
+  DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
+  renderInventory(*player);
+}
+
+
+void renderInventory(Player player)
+{
+  Inventory inv = player.inventory;
+  for (int i = 0; i < 4; i++)
+  {
+    Item item = inv.MainSlots[i];
+    Rectangle inv_rec = {GetScreenWidth()/3.+50*i,GetScreenHeight()-100,50,50};
+    if (item.itemType != 0)
+    {
+      Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
+      DrawTexturePro(item.sprite,source_rec ,inv_rec , (Vector2){0,0}, 0.,WHITE);
+    }
+    Rectangle inv_lines_rec = {inv_rec.x+3,inv_rec.y,inv_rec.width,inv_rec.height};
+    if (i == player.MainHand)
+    {
+      DrawRectangleLinesEx(inv_lines_rec,3 ,BLUE);
+      continue;
+    }
+    DrawRectangleLinesEx(inv_lines_rec,3 ,WHITE );
+  }
+
 }
 
 void initPlayer(Player *player)
@@ -71,14 +146,10 @@ void initPlayer(Player *player)
   player->position = (Vector2){0,0};
   player->speed = 600.;
   player->size = (Size){100,100};
-  player->item = Bread;
   player->hunger = 0.00;
-  
+  initInventory(player);
 }
 
-void renderHunger(Player *player)
-{
-}
 void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 {
 
@@ -100,4 +171,25 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 
   //   camera->target= Vector2Add(camera->target,Vector2Scale(diff,delta));
   // }
+}
+
+
+void initInventory(Player *player)
+{
+  for (int i = 0; i < PLAYER_INV_LEN ; i++)
+  {
+    if ( i ==2)
+    {
+      player->inventory.MainSlots[i] = getBread();
+    }
+    else
+    {
+      player->inventory.MainSlots[i] = getNullItem();
+    }
+  }
+  //Assuming its not null
+  player->inventory.menu_open = false;
+  player->inventory.item_grabbed_index = -1;
+  player->MainHand = 0;
+  player->OffHand = 1;
 }
