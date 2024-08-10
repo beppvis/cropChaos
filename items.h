@@ -7,6 +7,7 @@
 
 Color getItemColor(Item item);
 Entity itemToEntity(Item item,Vector2 position);
+void itemToInvetory(Item item,Inventory *inv);
 
 
 #endif

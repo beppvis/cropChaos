@@ -65,6 +65,7 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
   Rectangle menuBox = {player->position.x-250,player->position.y-450,500,800};
   Vector2 mousePos = GetScreenToWorld2D( GetMousePosition(),*camera);
   Inventory *inventory = &player->inventory;
+
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
     Item item = inventory->MainSlots[i];
@@ -88,6 +89,7 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
 
   }
 }
+
 
 void ItemMouse(Inventory *inventory,Camera2D camera)
 {
