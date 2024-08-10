@@ -53,6 +53,7 @@ void updateInventory(Player *player)
 
 void numToInventorySlot(Player *player)
 {
+  if(player->inventory.menu_open)return;
   switch(GetKeyPressed())
   {
     case KEY_ONE:

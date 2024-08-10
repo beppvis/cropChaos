@@ -6,6 +6,7 @@
 
 
 Color getItemColor(Item item);
+Entity itemToEntity(Item item,Vector2 position);
 
 
 #endif

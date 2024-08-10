@@ -125,7 +125,6 @@ bool allFilled(TileManager tileManager)
 
 void placeTile(TileManager *tileManager, Tile *tile )
 {
-  printf("PLACE : tile index %d, %d \n",tile->index.y,tile->index.x);
   tileManager->tiles[tile->index.y][tile->index.x] = *tile;
 }
 
@@ -199,7 +198,6 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
         *entities= (Entity){
                               .entityType = BLOCK,
                               .position = position};
-        printf("positions are : %f, %f",position.x,position.y);
         entities ++;
         num ++;
       }

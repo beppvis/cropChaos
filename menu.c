@@ -80,7 +80,8 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
         inventory->item_grabbed_index = -1;
         return;
       }
-      if(item.itemType ==0 )return;
+
+      if(item.itemType == 0)return;
       inventory->item_grabbed_index = i;
       return;
     }
@@ -90,6 +91,7 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
 
 void ItemMouse(Inventory *inventory,Camera2D camera)
 {
+
   Vector2 MousePos = GetScreenToWorld2D(GetMousePosition(),camera);
   if (inventory->item_grabbed_index  == -1){return;}
   Item item  = inventory->MainSlots[inventory->item_grabbed_index];
@@ -101,4 +103,8 @@ void ItemMouse(Inventory *inventory,Camera2D camera)
   Rectangle dest_rec = {MousePos.x,MousePos.y,50,50};
   
   DrawTexturePro(item.sprite, source_rec,dest_rec , (Vector2){0,0},0,WHITE);
+
 }
+
+
+

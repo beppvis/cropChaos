@@ -19,6 +19,7 @@ enum EntityType
 {
   NULL_ENTITY,
   BLOCK,
+  ITEM,
   ENEMY,
   NUM_ENTITIES,
 }EntityType;

@@ -1,5 +1,4 @@
 #include "items.h"
-#include <raylib.h>
 
 
 Color getItemColor(Item item)
@@ -10,10 +9,15 @@ Color getItemColor(Item item)
   return RED;
 }
 
+Entity itemToEntity(Item item,Vector2 position)
+{
+  return (Entity){item.sprite,ITEM,position};  
+}
+
 Item getNullItem()
 {
   
-  return (Item){NULL_ITEM,LoadTexture("assets/bread.png"),RED,(Vector2){0}};
+  return (Item){NULL_ITEM,LoadTexture(""),RED,(Vector2){0}};
 
 }
 
