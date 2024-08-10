@@ -34,7 +34,7 @@ void renderInventoryMenu(Player *player)
     Item *item = &player->inventory.MainSlots[i];
     if(num < PLAYER_INV_LEN/2)
     {
-      pos.x = offset + player->position.x - boxSize* (PLAYER_INV_LEN-4);
+      pos.x = offset + player->position.x - boxSize * (PLAYER_INV_LEN-4);
       pos.x += 50*num;    
       num += 1;
     }
@@ -48,7 +48,6 @@ void renderInventoryMenu(Player *player)
 
     Rectangle inv_rec = getRect(pos,(Size){boxSize,boxSize});
 
-    printf("%d , %d\n",num , player->inventory.item_grabbed_index);
     if (item->itemType != 0 && i != player->inventory.item_grabbed_index)
     {
       Rectangle source_rec = {0,0,item->sprite.width,item->sprite.height};

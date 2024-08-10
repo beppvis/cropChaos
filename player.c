@@ -8,7 +8,7 @@
 
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160
-#define MIN_HUNGER_TICK  1
+#define MIN_HUNGER_TICK  0.001
 
 
 void updatePlayer(Player *player ,float delta)
