@@ -1,14 +1,4 @@
 #include "tilemap.h"
-#include <raylib.h>
-
-enum TerrainTypes{
-  DIRT,// 0
-  GRASS,// 1
-  WATER,// 2
-  SAND,// 3
-  EMPTY,
-  NULL_TILE,
-} TerrainTypes;
 
 int getNumOfPossibilites(Tile *tile)
 {
@@ -20,9 +10,19 @@ int getNumOfPossibilites(Tile *tile)
   return num;
 }
 
+Vector2i positionToIndex(Vector2 position,TileManager tileManager)
+{
+  return (Vector2i){0,0};
+}
+
+Tile itemToTile(Item item,Vector2 position, TileManager tileManager)
+{
+  return (Tile){positionToIndex(position,tileManager),position,PLAYER_TILE,GRAY};
+}
+
 Tile nullTile()
 {
-  return (Tile){.terrainType= NULL_TILE,
+  return (Tile){.terrainType = NULL_TILE,
   .index = (Vector2i){0,0},
       };
 }

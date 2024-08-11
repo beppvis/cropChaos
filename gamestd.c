@@ -1,5 +1,6 @@
-#include "raylib.h"
 #include "gamestd.h"
+#include "tilemap.h"
+#include <raylib.h>
 
 
 
@@ -18,8 +19,4 @@ bool isInside(int size_A,Vector2 posA,Vector2 posB)
 }
 
 
-void itemToWorld(Item item)
-{
-  if (item.itemType ==0 )return;
-}
 

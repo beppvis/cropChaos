@@ -1,11 +1,19 @@
-#include "raylib.h"
-#include "raymath.h"
 #ifndef game_std_h_
 #define game_std_h_
+
+#include "raylib.h"
+#include "raymath.h"
 
 #define DBG_KEY KEY_E
 #define ITEM_WORLD_SIZE 20
 #define PLAYER_INV_LEN 10
+
+#define TILE_MAX_X 20
+#define TILE_MAX_Y 20
+#define TILE_SIZE 50
+#define WATER_MAX 10
+#define NUM_OF_TYPES 4
+
 
 enum ItemTypes
 {
@@ -23,6 +31,16 @@ enum EntityType
   ENEMY,
   NUM_ENTITIES,
 }EntityType;
+
+enum TerrainTypes{
+  DIRT,// 0
+  GRASS,// 1
+  WATER,// 2
+  SAND,// 3
+  PLAYER_TILE,
+  EMPTY,
+  NULL_TILE,
+} TerrainTypes;
 
 typedef struct Entity
 {
@@ -56,6 +74,18 @@ typedef struct Inventory
   int item_grabbed_index;
   bool menu_open;
 } Inventory;
+
+typedef struct Tile{
+  Vector2i index;
+  Vector2 position;
+  int terrainType;
+  Color color;
+  bool possibilites[NUM_OF_TYPES];
+}Tile;
+
+typedef struct TileManager{
+  Tile tiles[TILE_MAX_Y][TILE_MAX_X];
+}TileManager;
 
 Rectangle getRect(Vector2 position,Size size);
 bool isInside(int size_A,Vector2 posA ,Vector2 posB);

@@ -1,4 +1,5 @@
 #include "items.h"
+#include <raylib.h>
 
 Color getItemColor(Item item)
 {
@@ -10,8 +11,11 @@ Color getItemColor(Item item)
 
 Entity itemToEntity(Item item,Vector2 position)
 {
+
   return (Entity){item.sprite,ITEM,position};  
+
 }
+
 
 void itemToInvetory(Item item,Inventory *inv)
 {
@@ -25,6 +29,12 @@ void itemToInvetory(Item item,Inventory *inv)
     }
   }
 }
+
+// Tile itemToTile(Item item,Vector2 position)
+// {
+//   return (Tile){}
+// }
+
 
 Item getNullItem()
 {

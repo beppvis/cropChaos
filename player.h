@@ -1,7 +1,11 @@
 #ifndef player_h
 #define player_h
 
-#include "raylib.h"
+
+#include <raylib.h>
+#include <raymath.h>
+#include <stdbool.h>
+#include <stdio.h>
 #include "gamestd.h"
 #include "items.c"
 

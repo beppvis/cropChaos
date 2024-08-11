@@ -1,11 +1,5 @@
 #include "player.h"
 #include "menu.c"
-#include "menu.h"
-#include <raylib.h>
-#include <raymath.h>
-#include <stdbool.h>
-#include <stdio.h>
-
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160
 #define MIN_HUNGER_TICK  0.001
@@ -13,10 +7,12 @@
 
 void updatePlayer(Player *player ,float delta)
 {
+
   playerMovement(player,delta);
   updateInventory(player);
   updateHunger(player, delta);
   playerMenuHandler(&player->inventory);
+
 }
 
 

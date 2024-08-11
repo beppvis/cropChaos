@@ -19,7 +19,7 @@ void playerMenuHandler(Inventory *inv)
 
 void renderInventoryMenu(Player *player)
 {
-  Rectangle menuBox = {player->position.x-250,player->position.y-450,500,800};
+  Rectangle menuBox = {player->position.x-250,player->position.y-450,100,100};
   DrawRectanglePro(menuBox, (Vector2){0,0}, 0, (Color){0,0,3,100});
 
   //rendering layout boxes
