@@ -9,10 +9,12 @@ void playerMenuHandler(Inventory *inv)
   if(IsKeyPressed(KEY_Q)&&!inv->menu_open)
   {
     inv->menu_open = true;
+    return;
   }
   else if(inv->menu_open&& IsKeyPressed(KEY_Q))
   {
     inv->menu_open = false;
+    return;
   }
 }
 

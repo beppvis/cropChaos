@@ -1,5 +1,8 @@
 #include "player.h"
+#include "gamestd.h"
 #include "menu.c"
+#include <raylib.h>
+#include <stdio.h>
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160
 #define MIN_HUNGER_TICK  0.001
@@ -8,13 +11,26 @@
 void updatePlayer(Player *player ,float delta)
 {
 
-  playerMovement(player,delta);
+  playerInputHandler(player, delta);
   updateInventory(player);
   updateHunger(player, delta);
-  playerMenuHandler(&player->inventory);
 
 }
 
+
+void playerInputHandler(Player *player,float delta)
+{
+  playerMovement(player,delta);
+  // TODO : Might be BUG PRONE
+  if (GetKeyPressed() != 0)
+  {
+    playerMenuHandler(&player->inventory);
+  }
+  if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)&&!player->inventory.menu_open)
+  {
+
+  }
+}
 
 void playerMovement(Player *player,float delta)
 {
@@ -40,6 +56,14 @@ void updateHunger(Player *player, float delta)
   else
     player->hunger += MIN_HUNGER_TICK *delta;
 
+}
+
+void useItem(Player *player)
+{
+  switch (ItemTypes)
+  {
+    
+  }
 }
 
 void updateInventory(Player *player)

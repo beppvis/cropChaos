@@ -19,4 +19,3 @@ bool isInside(int size_A,Vector2 posA,Vector2 posB)
 }
 
 
-

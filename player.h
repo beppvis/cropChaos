@@ -29,6 +29,7 @@ bool isColliding(Rectangle A, Rectangle B);
 void renderPlayer(Player *player, Camera2D *camera);
 void initPlayer(Player *player);
 void playerMovement(Player *player, float delta);
+void playerInputHandler(Player *player,float delta);
 void updateHunger(Player *player, float delta);
 void initInventory(Player *player);
 void renderInventory(Player player);
