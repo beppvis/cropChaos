@@ -2,7 +2,6 @@
 #include "player.h"
 #include <raylib.h>
 #include <stdint.h>
-#include <stdio.h>
 
 void playerMenuHandler(Inventory *inv)
 {

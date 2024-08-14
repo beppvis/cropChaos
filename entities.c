@@ -12,7 +12,6 @@ void loadTextureEntities(Texture2D *entities_texture)
   {
 
     *entities_texture = LoadTexture(file_paths[i]);
-    printf("Loaded one Txt\n");
     entities_texture ++;
 
   }
@@ -25,7 +24,6 @@ void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES]
     if (entities->entityType==0)
     {
       printf("NULL entity\n");
-      printf("Pos : %f,%f\n",entities->position.x,entities->position.y);
       entities++;
       continue;
     }
@@ -36,13 +34,14 @@ void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES]
 
 void renderEntities(Entity *entities,int num)
 {
+
   for (int i =0 ; i<num; i++)
   {
-    // printf("I am rendering %f,%f\n",entities->position.x,entities->position.y);
-    Rectangle sourceRec = getRect((Vector2){0,0},(Size){entities->sprite.width,entities->sprite.height} );
+    Rectangle sourceRec = getRect((Vector2){0,0},(Size){entities->sprite.width,entities->sprite.height});
     Rectangle destRec = getRect((Vector2){entities->position.x*TILE_SIZE,entities->position.y*TILE_SIZE},(Size){TILE_SIZE,TILE_SIZE});
     Texture2D spirte = entities->sprite;
     DrawTexturePro(spirte,sourceRec,destRec,(Vector2){0,0},0,WHITE);
     entities ++;
   }
+
 }

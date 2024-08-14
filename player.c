@@ -12,7 +12,6 @@ void updatePlayer(Player *player ,float delta)
 {
 
   playerInputHandler(player, delta);
-  updateInventory(player);
   updateHunger(player, delta);
 
 }
@@ -22,13 +21,15 @@ void playerInputHandler(Player *player,float delta)
 {
   playerMovement(player,delta);
   // TODO : Might be BUG PRONE
-  if (GetKeyPressed() != 0)
+  int key = GetKeyPressed();
+  if (key != 0)
   {
+    numToInventorySlot(player,key);
     playerMenuHandler(&player->inventory);
   }
-  if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON)&&!player->inventory.menu_open)
+  if (!player->inventory.menu_open)
   {
-
+    if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))useItem(player);
   }
 }
 
@@ -60,21 +61,28 @@ void updateHunger(Player *player, float delta)
 
 void useItem(Player *player)
 {
-  switch (ItemTypes)
+  Inventory player_inv = player->inventory;
+  Item main_hand = player_inv.MainSlots[player->MainHand]; 
+  printf("inside me\n");
+  switch (main_hand.itemType)
   {
-    
+    case CONSUMABLE:
+      //DO stuff
+      break;
+    case EQUIPMENT:
+      break;
+    default:
+      printf("NEED to programm this ITEM TYPE");
+      break;
   }
+  removeItem(&player_inv,player->MainHand);
 }
 
-void updateInventory(Player *player)
-{
-  numToInventorySlot(player);
-}
 
-void numToInventorySlot(Player *player)
+void numToInventorySlot(Player *player,int key)
 {
-  if(player->inventory.menu_open)return;
-  switch(GetKeyPressed())
+  if (player->inventory.menu_open)return;
+  switch(key)
   {
     case KEY_ONE:
       player->MainHand = 0;

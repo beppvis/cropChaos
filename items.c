@@ -1,4 +1,5 @@
 #include "items.h"
+#include "gamestd.h"
 #include <raylib.h>
 
 Color getItemColor(Item item)
@@ -30,6 +31,10 @@ void itemToInvetory(Item item,Inventory *inv)
   }
 }
 
+void removeItem(Inventory *inv,int slot_num)
+{
+  inv->MainSlots[slot_num] = getNullItem();
+}
 // Tile itemToTile(Item item,Vector2 position)
 // {
 //   return (Tile){}

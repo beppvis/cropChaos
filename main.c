@@ -41,6 +41,10 @@ int main(void){
   TileManager tileManager;
   initTilemanager(&tileManager);
   dumbTiles(&tileManager,entities,&num_enities);
+
+
+  // TODO : need to remove this and just use one texuture
+
   loadTextureEntities(entities_texture);
   initEntities(entities,num_enities,entities_texture);
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
@@ -54,16 +58,19 @@ int main(void){
     BeginDrawing();
 
       BeginMode2D(camera);
+
         ClearBackground(BLACK);
         renderTiles(&tileManager);
         renderEntities(entities, num_enities);
         renderPlayer(&player,&camera);
+
       EndMode2D();
 
     renderHUD(&player);
     EndDrawing();
   
   }  
+
   CloseWindow();
 
   return 0;
