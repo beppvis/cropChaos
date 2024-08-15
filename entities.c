@@ -1,9 +1,9 @@
 #include <raylib.h>
 #include <stdio.h>
 #include "entities.h"
+#include "entities.h"
 
 const char *file_paths[NUM_ENTITIES] = {"","assets/grass.png",""};
-
 
 
 void loadTextureEntities(Texture2D *entities_texture)

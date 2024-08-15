@@ -54,10 +54,12 @@ int main(void){
     BeginDrawing();
 
       BeginMode2D(camera);
+      
         ClearBackground(BLACK);
         renderTiles(&tileManager);
         renderEntities(entities, num_enities);
         renderPlayer(&player,&camera);
+        
       EndMode2D();
 
     renderHUD(&player);
