@@ -1,4 +1,5 @@
 #include "tilemap.h"
+#include "gamestd.h"
 
 int getNumOfPossibilites(Tile *tile)
 {
@@ -170,6 +171,15 @@ void renderTiles(TileManager *tileManager)
     }
   }
 }
+
+
+
+
+void placeTilesInWorld(World *world)
+{
+   
+}
+
 
 void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
 {

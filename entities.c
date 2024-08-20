@@ -1,6 +1,7 @@
 #include <raylib.h>
 #include <stdio.h>
 #include "entities.h"
+#include "gamestd.h"
 
 const char *file_paths[NUM_ENTITIES] = {"","assets/grass.png",""};
 
@@ -44,4 +45,8 @@ void renderEntities(Entity *entities,int num)
     entities ++;
   }
 
+}
+
+void spawnEntities(EntityManager entitiyManager)
+{
 }

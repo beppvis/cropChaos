@@ -14,6 +14,13 @@
 #define WATER_MAX 10
 #define NUM_OF_TYPES 4
 
+// In a chunk
+#define MAX_ENTITIES  100
+
+#define CHUNK_SIZE 5
+#define CHUNK_LIMIT_X TILE_MAX_Y/CHUNK_SIZE
+#define CHUNK_LIMIT_Y TILE_MAX_X/CHUNK_SIZE
+
 
 enum ItemTypes
 {
@@ -48,6 +55,13 @@ typedef struct Entity
   int entityType;
   Vector2 position;
 }Entity;
+
+
+typedef struct EntityManager
+{
+  Entity Entities[MAX_ENTITIES];
+
+}EntityManager;
 
 typedef struct Size
 {
@@ -86,6 +100,23 @@ typedef struct Tile{
 typedef struct TileManager{
   Tile tiles[TILE_MAX_Y][TILE_MAX_X];
 }TileManager;
+
+
+typedef struct
+{
+  TileManager tileManger;
+  EntityManager entitiyManager;
+  bool render;
+}Chunk ;
+
+  
+
+typedef struct
+{
+
+  Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
+
+}World;
 
 Rectangle getRect(Vector2 position,Size size);
 bool isInside(int size_A,Vector2 posA ,Vector2 posB);
