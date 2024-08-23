@@ -18,6 +18,24 @@ void loadTextureEntities(Texture2D *entities_texture)
   }
 }
 
+void initEntity(Entity *entity,Texture2D *entities_texture)
+{
+  entity->entityType = 0;
+  entity->sprite = entities_texture[entity->entityType];
+  entity->position = (Vector2){0,0};
+}
+
+void initEntityManager(EntityManager *entityManager,Texture2D entities_texture)
+{
+  Entity *entities = &(entityManager->Entities[0]);
+  for (int i = 0 ;i<MAX_ENTITIES ;i++)
+  {
+    initEntity(entities,&entities_texture);
+    entities ++;
+  }
+}
+
+
 void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES])
 {
   for (int i = 0 ; i < num; i++)

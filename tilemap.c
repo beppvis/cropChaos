@@ -59,25 +59,6 @@ void debugPlaceholder()
 {
     printf("TILL HERE\n");
 }
-void initTilemanager(TileManager *tileManager)
-{
-  int i = 0 ;
-  for (int y = 0; y<TILE_MAX_Y; y ++)
-  {
-    for (int x = 0; x<TILE_MAX_X; x ++)
-    {
-        Tile tile = {
-          .index= (Vector2i){x,y},
-          .position = (Vector2){x*50,y*50},
-          .terrainType = NULL_TILE,
-          .possibilites = {1,1,1,1},
-        };
-        tileManager->tiles[y][x]= tile;
-        i ++;
-    }
-  }
-}
-
 //RandomIndex
 int getRandomItemI(int itemSize)
 {
@@ -173,20 +154,27 @@ void renderTiles(TileManager *tileManager)
 }
 
 
-
-
-void placeTilesInWorld(World *world)
+void placeTilesInChunks(World *world)
 {
-   
+  for (int chunk_y = 0; chunk_y<CHUNK_LIMIT_Y;chunk_y ++ )   
+  {
+    for (int chunk_x = 0; chunk_x<CHUNK_LIMIT_X;chunk_x ++ )   
+    {
+      Chunk *chunk = &world->Chunks[chunk_y][chunk_x];
+      dumbTiles(&chunk->tileManger,&chunk->entitiyManager);
+    }
+  }
 }
 
 
-void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
+void dumbTiles(TileManager *tileManager,EntityManager *entityManager)
 {
 
   static Entity (env_items[TILE_MAX_X*TILE_MAX_Y]);
 
   int num = 0;
+  Entity *entities = &(entityManager->Entities[0]);
+  int *num_entities = &(entityManager->num_entites);
 
   for (int y = 0;y<TILE_MAX_Y;y++)
   {
@@ -201,9 +189,6 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
       int random_num = GetRandomValue(1,3);
       if (1)
       {
-        // Texture2D berries = LoadTexture("./assets/grass.png");
-        // Rectangle source_rec = {0,0,berries.width,berries.height};
-        // Rectangle dest_rec = {x,y,50,50};
         Vector2 position = {x,y};
         *entities= (Entity){
                               .entityType = BLOCK,
@@ -211,8 +196,6 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
         entities ++;
         num ++;
       }
-      // sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
-      // DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
     }
   }
   *num_entities = num;

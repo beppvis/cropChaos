@@ -60,7 +60,7 @@ typedef struct Entity
 typedef struct EntityManager
 {
   Entity Entities[MAX_ENTITIES];
-
+  int num_entites;
 }EntityManager;
 
 typedef struct Size
@@ -115,7 +115,7 @@ typedef struct
 {
 
   Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
-
+  Texture2D entitiyTextures;
 }World;
 
 Rectangle getRect(Vector2 position,Size size);

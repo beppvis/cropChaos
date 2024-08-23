@@ -40,7 +40,8 @@ int main(void){
 
   TileManager tileManager;
   initTilemanager(&tileManager);
-  dumbTiles(&tileManager,entities,&num_enities);
+  
+
 
 
   // TODO : need to remove this and just use one texuture

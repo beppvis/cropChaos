@@ -6,5 +6,8 @@
 
 void loadTextureEntities(Texture2D *entities_texture);
 void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES]);
+void initEntity(Entity *entity,Texture2D *entities_texture);
+void initEntityManager(EntityManager *entityManager,Texture2D entities_texture);
+
 
 #endif
