@@ -1,5 +1,6 @@
 #include "tilemap.h"
 #include "gamestd.h"
+#include <stdio.h>
 
 int getNumOfPossibilites(Tile *tile)
 {
@@ -154,27 +155,32 @@ void renderTiles(TileManager *tileManager)
 }
 
 
-void placeTilesInChunks(World *world)
+void placeTilesInChunk(Chunk *chunk)
 {
-  for (int chunk_y = 0; chunk_y<CHUNK_LIMIT_Y;chunk_y ++ )   
+  TileManager *tileManager = &chunk->tileManger;
+  for (int y = 0;y<TILE_MAX_Y;y++)
   {
-    for (int chunk_x = 0; chunk_x<CHUNK_LIMIT_X;chunk_x ++ )   
+    for (int x = 0;x<TILE_MAX_X;x++)
     {
-      Chunk *chunk = &world->Chunks[chunk_y][chunk_x];
-      dumbTiles(&chunk->tileManger,&chunk->entitiyManager);
+      Vector2i index = {x,y};
+      Tile tile = getTile(index, tileManager);
+      tile.terrainType = NULL_TILE;
+      tileManager->tiles[y][x] = tile;
     }
   }
+
+    
 }
 
 
 void dumbTiles(TileManager *tileManager,EntityManager *entityManager)
 {
-
-  static Entity (env_items[TILE_MAX_X*TILE_MAX_Y]);
-
   int num = 0;
-  Entity *entities = &(entityManager->Entities[0]);
-  int *num_entities = &(entityManager->num_entites);
+  Entity *entities = entityManager->Entities;
+
+  //FAILURE WARNING this might break but clean code : ) 
+
+  int num_entities = entityManager->num_entites;
 
   for (int y = 0;y<TILE_MAX_Y;y++)
   {
@@ -183,20 +189,18 @@ void dumbTiles(TileManager *tileManager,EntityManager *entityManager)
       Vector2i index = {x,y};
       Tile tile = getTile(index, tileManager);
       tile.terrainType = NULL_TILE;
-      placeTile(tileManager,&tile);
-      char sIndex[50];
-      SetRandomSeed(time(NULL));
-      int random_num = GetRandomValue(1,3);
-      if (1)
-      {
-        Vector2 position = {x,y};
-        *entities= (Entity){
-                              .entityType = BLOCK,
-                              .position = position};
-        entities ++;
-        num ++;
-      }
+      tileManager->tiles[y][x] = tile;
+      // SetRandomSeed(time(NULL));
+      // int random_num = GetRandomValue(1,3);
+      // if (1)
+      // {
+      //   Vector2 position = {x,y};
+      //   *entities= (Entity){
+      //                         .entityType = BLOCK,
+      //                         .position = position};
+      //   entities ++;
+      //   num_entities ++;
+      // }
     }
   }
-  *num_entities = num;
 }

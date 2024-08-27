@@ -3,6 +3,7 @@
 
 #include "raylib.h"
 #include "raymath.h"
+#include "stdio.h"
 
 #define DBG_KEY KEY_E
 #define ITEM_WORLD_SIZE 20
@@ -21,6 +22,13 @@
 #define CHUNK_LIMIT_X TILE_MAX_Y/CHUNK_SIZE
 #define CHUNK_LIMIT_Y TILE_MAX_X/CHUNK_SIZE
 
+//LOG FILE name
+
+
+//LOG FLAGS
+
+#define LOG_ERROR -1
+#define LOG_OK 0
 
 enum ItemTypes
 {
@@ -101,12 +109,28 @@ typedef struct TileManager{
   Tile tiles[TILE_MAX_Y][TILE_MAX_X];
 }TileManager;
 
+typedef struct Player
+{
+  Vector2 position;
+  Texture2D sprite;
+  Size size;
+  bool isMoving;
+  bool inMenu;
+  float speed;
+  float hunger;
+  Inventory inventory;
+  int MainHand;
+  int  OffHand;
+} Player;
+
+
 
 typedef struct
 {
   TileManager tileManger;
   EntityManager entitiyManager;
   bool render;
+  Vector2i index;
 }Chunk ;
 
   
@@ -115,7 +139,8 @@ typedef struct
 {
 
   Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
-  Texture2D entitiyTextures;
+  Player player;
+  Texture2D entitiyTextures[NUM_ENTITIES];
 }World;
 
 Rectangle getRect(Vector2 position,Size size);

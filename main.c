@@ -1,10 +1,10 @@
+#include "gamestd.h"
 #include "raylib.h"
 #include <stdbool.h>
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
-#include "entities.c"
-
+#include "world.c"
 //                       
 
 /*
@@ -19,9 +19,8 @@ Reminder : This is the TEST Folder
 */
 
 
-void renderEntities(Entity *entities,int num);
 
-int main(void){
+int main(){
 
   const Size screenSize = {500,900};
   InitWindow(screenSize.width,screenSize.height,"Crop");
@@ -34,20 +33,11 @@ int main(void){
   camera.rotation = 0.0f;
   camera.zoom = 1.0f;
 
-  Entity entities[TILE_MAX_X*TILE_MAX_Y];
-  int num_enities;
-  Texture2D entities_texture[NUM_ENTITIES];
-
-  TileManager tileManager;
-  initTilemanager(&tileManager);
-  
+  World world;
+  initWorld(&world);
+  world.player = player;
 
 
-
-  // TODO : need to remove this and just use one texuture
-
-  loadTextureEntities(entities_texture);
-  initEntities(entities,num_enities,entities_texture);
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
@@ -61,8 +51,7 @@ int main(void){
       BeginMode2D(camera);
 
         ClearBackground(BLACK);
-        renderTiles(&tileManager);
-        renderEntities(entities, num_enities);
+        renderWorld(&world);
         renderPlayer(&player,&camera);
 
       EndMode2D();

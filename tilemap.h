@@ -14,9 +14,8 @@ Vector2i positionToIndex(Vector2 position,TileManager tileManager);
 Tile itemToTile(Item item,Vector2 position, TileManager tileManager);
 Tile nullTile();
 int getNumOfPossibilites(Tile *tile);
-void placeTilesInChunks(World *world);
+void placeTilesInChunk(Chunk *chunk);
 void dumbTiles(TileManager *tileManager,EntityManager *entityManager);
 void renderTiles(TileManager *tileManager);
-void initTilemanager(TileManager *tileManager);
 
 #endif

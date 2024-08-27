@@ -29,7 +29,10 @@ void playerInputHandler(Player *player,float delta)
   }
   if (!player->inventory.menu_open)
   {
-    if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))useItem(player);
+    if (IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
+    {
+        useItem(player);
+    }
   }
 }
 
@@ -37,13 +40,13 @@ void playerMovement(Player *player,float delta)
 {
   float speed = player->speed;
   player->isMoving = true;
-  if(IsKeyDown(KEY_W)){player->position.y -= speed*delta;}
+  if(IsKeyDown(KEY_W)||IsKeyDown(KEY_UP)){player->position.y -= speed*delta;}
 
-  else if(IsKeyDown(KEY_S)){player->position.y += speed*delta;}
+  else if(IsKeyDown(KEY_S)||IsKeyDown(KEY_DOWN)){player->position.y += speed*delta;}
 
-  else if(IsKeyDown(KEY_A)){player->position.x -= speed*delta;}
+  else if(IsKeyDown(KEY_A)||IsKeyDown(KEY_LEFT)){player->position.x -= speed*delta;}
 
-  else if(IsKeyDown(KEY_D)){player->position.x += speed*delta;}
+  else if(IsKeyDown(KEY_D)||IsKeyDown(KEY_RIGHT)){player->position.x += speed*delta;}
 
   else player->isMoving = false;
 }
