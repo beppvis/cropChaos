@@ -1,5 +1,4 @@
 #include "gamestd.h"
-#include <raylib.h>
 
 
 
@@ -17,4 +16,8 @@ bool isInside(int size_A,Vector2 posA,Vector2 posB)
   return false;
 }
 
+void LogIt(char *string, int buff_size,int flag)
+{  
+  //TODO : create more
+}
 

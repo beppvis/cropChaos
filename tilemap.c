@@ -1,5 +1,6 @@
 #include "tilemap.h"
 #include "gamestd.h"
+#include <stdio.h>
 
 int getNumOfPossibilites(Tile *tile)
 {
@@ -59,25 +60,6 @@ void debugPlaceholder()
 {
     printf("TILL HERE\n");
 }
-void initTilemanager(TileManager *tileManager)
-{
-  int i = 0 ;
-  for (int y = 0; y<TILE_MAX_Y; y ++)
-  {
-    for (int x = 0; x<TILE_MAX_X; x ++)
-    {
-        Tile tile = {
-          .index= (Vector2i){x,y},
-          .position = (Vector2){x*50,y*50},
-          .terrainType = NULL_TILE,
-          .possibilites = {1,1,1,1},
-        };
-        tileManager->tiles[y][x]= tile;
-        i ++;
-    }
-  }
-}
-
 //RandomIndex
 int getRandomItemI(int itemSize)
 {
@@ -173,20 +155,32 @@ void renderTiles(TileManager *tileManager)
 }
 
 
-
-
-void placeTilesInWorld(World *world)
+void placeTilesInChunk(Chunk *chunk)
 {
-   
+  TileManager *tileManager = &chunk->tileManger;
+  for (int y = 0;y<TILE_MAX_Y;y++)
+  {
+    for (int x = 0;x<TILE_MAX_X;x++)
+    {
+      Vector2i index = {x,y};
+      Tile tile = getTile(index, tileManager);
+      tile.terrainType = NULL_TILE;
+      tileManager->tiles[y][x] = tile;
+    }
+  }
+
+    
 }
 
 
-void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
+void dumbTiles(TileManager *tileManager,EntityManager *entityManager)
 {
-
-  static Entity (env_items[TILE_MAX_X*TILE_MAX_Y]);
-
   int num = 0;
+  Entity *entities = entityManager->Entities;
+
+  //FAILURE WARNING this might break but clean code : ) 
+
+  int num_entities = entityManager->num_entites;
 
   for (int y = 0;y<TILE_MAX_Y;y++)
   {
@@ -195,25 +189,18 @@ void dumbTiles(TileManager *tileManager,Entity *entities,int *num_entities)
       Vector2i index = {x,y};
       Tile tile = getTile(index, tileManager);
       tile.terrainType = NULL_TILE;
-      placeTile(tileManager,&tile);
-      char sIndex[50];
-      SetRandomSeed(time(NULL));
-      int random_num = GetRandomValue(1,3);
-      if (1)
-      {
-        // Texture2D berries = LoadTexture("./assets/grass.png");
-        // Rectangle source_rec = {0,0,berries.width,berries.height};
-        // Rectangle dest_rec = {x,y,50,50};
-        Vector2 position = {x,y};
-        *entities= (Entity){
-                              .entityType = BLOCK,
-                              .position = position};
-        entities ++;
-        num ++;
-      }
-      // sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
-      // DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
+      tileManager->tiles[y][x] = tile;
+      // SetRandomSeed(time(NULL));
+      // int random_num = GetRandomValue(1,3);
+      // if (1)
+      // {
+      //   Vector2 position = {x,y};
+      //   *entities= (Entity){
+      //                         .entityType = BLOCK,
+      //                         .position = position};
+      //   entities ++;
+      //   num_entities ++;
+      // }
     }
   }
-  *num_entities = num;
 }

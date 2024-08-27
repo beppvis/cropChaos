@@ -3,8 +3,8 @@
 #include "entities.h"
 #include "gamestd.h"
 
-const char *file_paths[NUM_ENTITIES] = {"","assets/grass.png",""};
 
+const char *file_paths[NUM_ENTITIES-1] = {"assets/grass.png","assets/grass.png","assets/grass.png"};
 
 
 void loadTextureEntities(Texture2D *entities_texture)
@@ -17,6 +17,25 @@ void loadTextureEntities(Texture2D *entities_texture)
 
   }
 }
+
+void initEntity(Entity *entity,Texture2D *entities_texture)
+{
+  entity->entityType = 0;
+  entity->sprite = *entities_texture;
+  entity->position = (Vector2){0,0};
+}
+
+void initEntityManager(Chunk *chunk,Texture2D *entitiesTexture)
+{
+  EntityManager *entityManager = &chunk->entitiyManager;
+  Entity *entities = &(entityManager->Entities[0]);
+  for (int i = 0 ;i<MAX_ENTITIES ;i++)
+  {
+    initEntity(entities,entitiesTexture);
+    entities ++;
+  }
+}
+
 
 void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES])
 {
@@ -33,8 +52,10 @@ void initEntities(Entity *entities,int num,Texture2D entities_text[NUM_ENTITIES]
   }
 }
 
-void renderEntities(Entity *entities,int num)
+void renderEntities(EntityManager *entityManager)
 {
+  int num = entityManager->num_entites;
+  Entity *entities = entityManager->Entities;
 
   for (int i =0 ; i<num; i++)
   {

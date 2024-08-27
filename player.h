@@ -9,21 +9,6 @@
 #include "gamestd.h"
 #include "items.c"
 
-typedef struct Player
-{
-  Vector2 position;
-  Texture2D sprite;
-  Size size;
-  bool isMoving;
-  bool inMenu;
-  float speed;
-  float hunger;
-  Inventory inventory;
-  int MainHand;
-  int  OffHand;
-} Player;
-
-
 void updatePlayer(Player *player, float delta);
 bool isColliding(Rectangle A, Rectangle B);
 void renderPlayer(Player *player, Camera2D *camera);
