@@ -16,6 +16,7 @@ void initPlayer(Player *player);
 void playerMovement(Player *player, float delta);
 void playerInputHandler(Player *player,float delta);
 void useItem(Player *player);
+void consumeItem(Item *item,int inv_index,Player *player);
 void updateHunger(Player *player, float delta);
 void initInventory(Player *player);
 void renderInventory(Player player);

@@ -64,7 +64,11 @@ void initTilemanager(Chunk *chunk)
 void renderChunk(Chunk *chunk)
 {
   renderTiles(&chunk->tileManger); 
-  // renderEntities(&chunk->entitiyManager);
+  int static render_nums =  0; 
+  if  (render_nums < 1){
+      renderEntities(&chunk->entitiyManager);
+      render_nums++;
+  }
 }
 
 void renderWorld(World *world)

@@ -32,7 +32,7 @@ void renderInventoryMenu(Player *player)
   float offset = GetScreenWidth()/2.5;
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
-    Item *item = &player->inventory.MainSlots[i];
+    Item *item = &player->inventory.slots[i];
     if(num < PLAYER_INV_LEN/2)
     {
       pos.x = offset + player->position.x - boxSize * (PLAYER_INV_LEN-4);
@@ -69,16 +69,16 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
 
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
-    Item item = inventory->MainSlots[i];
+    Item item = inventory->slots[i];
     if (isInside(boxSize, item.inv_pos,mousePos)&&IsMouseButtonPressed(MOUSE_LEFT_BUTTON))
     {
       if(inventory->item_grabbed_index != -1)
       {
         //To get the item
 
-        Item grabbed_item = inventory->MainSlots[inventory->item_grabbed_index];
-        inventory->MainSlots[inventory->item_grabbed_index] =inventory->MainSlots[i];  
-        inventory->MainSlots[i] = grabbed_item;
+        Item grabbed_item = inventory->slots[inventory->item_grabbed_index];
+        inventory->slots[inventory->item_grabbed_index] =inventory->slots[i];  
+        inventory->slots[i] = grabbed_item;
         inventory->item_grabbed_index = -1;
         return;
       }
@@ -97,7 +97,7 @@ void ItemMouse(Inventory *inventory,Camera2D camera)
 
   Vector2 MousePos = GetScreenToWorld2D(GetMousePosition(),camera);
   if (inventory->item_grabbed_index  == -1){return;}
-  Item item  = inventory->MainSlots[inventory->item_grabbed_index];
+  Item item  = inventory->slots[inventory->item_grabbed_index];
   if (!inventory->menu_open){return;}
   if (item.itemType == 0){return;}
 

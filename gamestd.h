@@ -65,26 +65,35 @@ typedef struct Entity
 }Entity;
 
 
-typedef struct EntityManager
+typedef struct 
 {
   Entity Entities[MAX_ENTITIES];
   int num_entites;
 }EntityManager;
 
-typedef struct Size
+typedef struct 
 {
   float width;
   float height;
 } Size;
 
-typedef struct Vector2i{
+typedef struct {
   int x;
   int y;
 }Vector2i;
 
-typedef struct Item
+typedef struct 
+{
+  float saturation;
+  float durabilty;
+  float strength;
+  int chances_of_spoil;
+}ItemAttribute;
+
+typedef struct 
 {
   enum ItemTypes itemType;  
+  ItemAttribute itemAttribute;
   Texture2D sprite;
   Color color;
   Vector2 inv_pos;
@@ -92,7 +101,7 @@ typedef struct Item
 
 typedef struct Inventory
 {
-  Item MainSlots[PLAYER_INV_LEN];
+  Item slots[PLAYER_INV_LEN];
   int item_grabbed_index;
   bool menu_open;
 } Inventory;

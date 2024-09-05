@@ -20,7 +20,7 @@ void updatePlayer(Player *player ,float delta)
 void playerInputHandler(Player *player,float delta)
 {
   playerMovement(player,delta);
-  // TODO : Might be BUG PRONE
+
   int key = GetKeyPressed();
   if (key != 0)
   {
@@ -65,22 +65,29 @@ void updateHunger(Player *player, float delta)
 void useItem(Player *player)
 {
   Inventory player_inv = player->inventory;
-  Item main_hand = player_inv.MainSlots[player->MainHand]; 
+  Item main_hand = player_inv.slots[player->MainHand]; 
   printf("inside me\n");
   switch (main_hand.itemType)
   {
     case CONSUMABLE:
-      //DO stuff
+      consumeItem(&main_hand,player->MainHand, player);
       break;
     case EQUIPMENT:
       break;
     default:
-      printf("NEED to programm this ITEM TYPE");
       break;
   }
   removeItem(&player_inv,player->MainHand);
 }
 
+void consumeItem(Item *item,int inv_index,Player *player)
+{
+  // TODO: Implement spoil
+
+  player->hunger += item->itemAttribute.saturation;
+  player->inventory.slots[inv_index] = getNullItem();  
+
+}
 
 void numToInventorySlot(Player *player,int key)
 {
@@ -128,7 +135,7 @@ void renderPlayer(Player *player, Camera2D *camera)
 
 void renderHand(Player *player)
 {
-  Item item = player->inventory.MainSlots[player->MainHand];
+  Item item = player->inventory.slots[player->MainHand];
   if(item.itemType != 0)
   {
     Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
@@ -153,7 +160,7 @@ void renderInventory(Player player)
   Inventory inv = player.inventory;
   for (int i = 0; i < 4; i++)
   {
-    Item item = inv.MainSlots[i];
+    Item item = inv.slots[i];
     Rectangle inv_rec = {GetScreenWidth()/3.+50*i,GetScreenHeight()-100,50,50};
     if (item.itemType != 0)
     {
@@ -212,11 +219,11 @@ void initInventory(Player *player)
   {
     if ( i ==2)
     {
-      player->inventory.MainSlots[i] = getBread();
+      player->inventory.slots[i] = getBread();
     }
     else
     {
-      player->inventory.MainSlots[i] = getNullItem();
+      player->inventory.slots[i] = getNullItem();
     }
   }
   //Assuming its not null

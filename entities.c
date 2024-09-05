@@ -70,4 +70,5 @@ void renderEntities(EntityManager *entityManager)
 
 void spawnEntities(EntityManager entitiyManager)
 {
+  
 }

@@ -22,10 +22,10 @@ void itemToInvetory(Item item,Inventory *inv)
 {
   for (int i =0 ; i < PLAYER_INV_LEN; i++)
   {
-    Item inv_item = inv->MainSlots[i];
+    Item inv_item = inv->slots[i];
     if (inv_item.itemType == 0)
     {
-      inv->MainSlots[i] = item;
+      inv->slots[i] = item;
       return;
     }
   }
@@ -33,7 +33,7 @@ void itemToInvetory(Item item,Inventory *inv)
 
 void removeItem(Inventory *inv,int slot_num)
 {
-  inv->MainSlots[slot_num] = getNullItem();
+  inv->slots[slot_num] = getNullItem();
 }
 // Tile itemToTile(Item item,Vector2 position)
 // {
@@ -43,12 +43,21 @@ void removeItem(Inventory *inv,int slot_num)
 
 Item getNullItem()
 {
-  
-  return (Item){NULL_ITEM,LoadTexture(""),RED,(Vector2){0}};
+  Item nullItem ;  
+  nullItem.itemAttribute = (ItemAttribute){0,0,0};
+  nullItem.itemType = NULL_ITEM;
+  nullItem.color = RED;
 
+  return nullItem;
 }
 
 Item getBread()
 {
-  return (Item){CONSUMABLE,LoadTexture("assets/bread.png"),BROWN,(Vector2){0}};
+  Item bread ;  
+  bread.itemAttribute = (ItemAttribute){10,0,0};
+  bread.itemType = CONSUMABLE;
+  bread.color = BROWN;
+  bread.itemAttribute.chances_of_spoil = 10;
+  bread.sprite = LoadTexture("assets/bread.png");
+  return bread;
 }
