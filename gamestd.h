@@ -4,6 +4,7 @@
 #include "raylib.h"
 #include "raymath.h"
 #include "stdio.h"
+#include "enums.c"
 
 #define DBG_KEY KEY_E
 #define ITEM_WORLD_SIZE 20
@@ -30,32 +31,6 @@
 #define LOG_ERROR -1
 #define LOG_OK 0
 
-enum ItemTypes
-{
-  NULL_ITEM,
-  CONSUMABLE,
-  EQUIPMENT,
-  NUM_ITEMS,
-}ItemTypes;
-
-enum EntityType
-{
-  NULL_ENTITY,
-  BLOCK,
-  ITEM,
-  ENEMY,
-  NUM_ENTITIES,
-}EntityType;
-
-enum TerrainTypes{
-  DIRT,// 0
-  GRASS,// 1
-  WATER,// 2
-  SAND,// 3
-  PLAYER_TILE,
-  EMPTY,
-  NULL_TILE,
-} TerrainTypes;
 
 typedef struct Entity
 {
@@ -120,17 +95,19 @@ typedef struct TileManager{
 
 typedef struct Player
 {
-  Vector2 position;
-  Texture2D sprite;
-  Size size;
-  bool isMoving;
+  Vector2 position; //position
+  Texture2D sprite; //sprit
+  Size size;//size   
+  bool isMoving;//check if player is moving
+  enum FacingDirections facing;// facing direction linked to enum
   bool inMenu;
   float speed;
   float hunger;
   Inventory inventory;
   int MainHand;
   int  OffHand;
-} Player;
+} Player; 
+
 
 
 
@@ -154,6 +131,7 @@ typedef struct
 
 Rectangle getRect(Vector2 position,Size size);
 bool isInside(int size_A,Vector2 posA ,Vector2 posB);
+int flip_h(Rectangle *sourceRect);
 // Item -> stat up (effect)
 
 #endif

@@ -16,6 +16,13 @@ bool isInside(int size_A,Vector2 posA,Vector2 posB)
   return false;
 }
 
+int flip_h(Rectangle *sourceRect)
+{
+  sourceRect->x = sourceRect->x * -1;
+  return 0;
+}
+
+
 void LogIt(char *string, int buff_size,int flag)
 {  
   //TODO : create more

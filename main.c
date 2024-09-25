@@ -22,7 +22,7 @@ Reminder : I started because I thought it was easy
 
 int main(){
 
-  const Size screenSize = {500,900};
+  const Size screenSize = {800,1200};
   InitWindow(screenSize.width,screenSize.height,"Crop");
   Player player;
   initPlayer(&player);

@@ -61,3 +61,16 @@ Item getBread()
   bread.sprite = LoadTexture("assets/bread.png");
   return bread;
 }
+
+
+Item getHoe()
+{
+  Item hoe;  
+  hoe.itemAttribute = (ItemAttribute){10,0,0};
+  hoe.itemType = EQUIPMENT;
+  hoe.color = WHITE;
+  hoe.sprite = LoadTexture("assets/hoe.png");
+  return hoe;
+}
+
+

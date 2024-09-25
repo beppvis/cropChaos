@@ -1,0 +1,33 @@
+QUEUE
+	->add task
+	-> update whats all near vicinity 
+
+TILE
+-> UPDATE (every game tick)
+	-> field
+
+
+HARVESTING 
+	-> MACHINE
+		-> BIG machines
+	Timeline
+
+
+	PLANT (Update each day)
+	
+	something that plants seeds
+		-> make field
+		UPDATE loop 
+		 ->(plant)
+			->to check if harvesting stage
+				->NO
+					->make it look for seed_planted
+					->to check if watered
+						-> NO
+							then make it dry (next day)
+				->YES
+					->
+
+		SETUP
+			->texture load
+			->add to tiles

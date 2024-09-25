@@ -40,13 +40,13 @@ void playerMovement(Player *player,float delta)
 {
   float speed = player->speed;
   player->isMoving = true;
-  if(IsKeyDown(KEY_W)||IsKeyDown(KEY_UP)){player->position.y -= speed*delta;}
+  if(IsKeyDown(KEY_W)||IsKeyDown(KEY_UP)){player->position.y -= speed*delta;player->facing = UP;}
 
-  else if(IsKeyDown(KEY_S)||IsKeyDown(KEY_DOWN)){player->position.y += speed*delta;}
+  else if(IsKeyDown(KEY_S)||IsKeyDown(KEY_DOWN)){player->position.y += speed*delta;player->facing = DOWN;}
 
-  else if(IsKeyDown(KEY_A)||IsKeyDown(KEY_LEFT)){player->position.x -= speed*delta;}
+  else if(IsKeyDown(KEY_A)||IsKeyDown(KEY_LEFT)){player->position.x -= speed*delta;player->facing = LEFT;}
 
-  else if(IsKeyDown(KEY_D)||IsKeyDown(KEY_RIGHT)){player->position.x += speed*delta;}
+  else if(IsKeyDown(KEY_D)||IsKeyDown(KEY_RIGHT)){player->position.x += speed*delta;player->facing = RIGHT;}
 
   else player->isMoving = false;
 }
@@ -123,6 +123,7 @@ void renderPlayer(Player *player, Camera2D *camera)
   DrawTexturePro(player->sprite, sourceRec, getRect(player->position,player->size ),(Vector2){0,0} ,0,WHITE );
   //Item
   Vector2 diff =Vector2Subtract(player->position,camera->target);
+  //rendering ITEM
   renderHand(player);
   if (player->inventory.menu_open)
   { 
@@ -135,13 +136,46 @@ void renderPlayer(Player *player, Camera2D *camera)
 
 void renderHand(Player *player)
 {
+
   Item item = player->inventory.slots[player->MainHand];
   if(item.itemType != 0)
   {
+    Size hand_size = (Size){player->size.width,player->size.height/3.};
     Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
-    Rectangle dest_rec = {player->position.x,player->position.y+20,30,30};
-    DrawTexturePro(item.sprite,source_rec ,dest_rec ,(Vector2){0,0} ,0 ,WHITE);    
 
+
+    // increasing the item size depend on Item type
+    // switch (item.itemType){
+    //   case EQUIPMENT:
+    //     dest_rec = (Rectangle){0,20,hand_size.width,hand_size.height};
+    //     break;
+    //   default:
+    //     dest_rec = (Rectangle){0,20,hand_size.width,hand_size.height};
+    //     break;
+    // }
+
+    // TODO : dest rec the hand size is fucked broo
+    Rectangle dest_rect = (Rectangle){10,20,hand_size.width ,hand_size.height};
+
+    int ret = 0 ;
+
+    switch (player->facing) {
+      case LEFT:
+        break;
+      case RIGHT:
+        //check for fails
+        break;
+
+      default:
+        break;
+    }
+    printf(" width : %f ,height : %f \n",hand_size.width,hand_size.height);
+    if (ret != 0){
+      printf("PANIC");
+      return;
+
+    }
+    DrawTexturePro(item.sprite,source_rec ,dest_rect,(Vector2){player->position.x,player->position.y} ,0 ,WHITE);    
   }
 
 }
@@ -184,8 +218,9 @@ void initPlayer(Player *player)
   player->sprite = playerSprite;
   player->position = (Vector2){0,0};
   player->speed = 600.;
-  player->size = (Size){100,100};
+  player->size = (Size){200,200};
   player->hunger = 0.00;
+  player->facing = NONE;
   initInventory(player);
 }
 
@@ -217,15 +252,11 @@ void initInventory(Player *player)
 {
   for (int i = 0; i < PLAYER_INV_LEN ; i++)
   {
-    if ( i ==2)
-    {
-      player->inventory.slots[i] = getBread();
-    }
-    else
-    {
-      player->inventory.slots[i] = getNullItem();
-    }
+    player->inventory.slots[i] = getNullItem();
   }
+
+  player->inventory.slots[1] = getBread();
+  player->inventory.slots[3] = getHoe();
   //Assuming its not null
   player->inventory.menu_open = false;
   player->inventory.item_grabbed_index = -1;
