@@ -1,4 +1,5 @@
 #include "player.h"
+#include "gamestd.h"
 #include "menu.c"
 #include "menu.h"
 #include <raylib.h>
@@ -50,10 +51,12 @@ void updateInventory(Player *player)
 {
   int key = GetKeyPressed();
   numToInventorySlot(player,key);
+
 }
 
 void numToInventorySlot(Player *player,int key)
 {
+  addDebugText("Player","pressed ey : %d",key );
   switch(key)
   {
     case KEY_ONE:
@@ -140,13 +143,14 @@ void renderInventory(Player player)
 
 }
 
-void initPlayer(Player *player)
+void initPlayer(Player *player,World *world)
 {
   Texture2D playerSprite = LoadTexture("../assets/player.png");
   player->sprite = playerSprite;
   player->position = (Vector2){0,0};
   player->speed = 600.;
   player->size = (Size){100,100};
+  player->world = world;
   player->hunger = 0.00;
   initInventory(player);
 }
@@ -194,3 +198,4 @@ void initInventory(Player *player)
   player->MainHand = 0;
   player->OffHand = 1;
 }
+

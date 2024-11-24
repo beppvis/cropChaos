@@ -12,7 +12,7 @@
 void updatePlayer(Player *player, float delta);
 bool isColliding(Rectangle A, Rectangle B);
 void renderPlayer(Player *player, Camera2D *camera);
-void initPlayer(Player *player);
+void initPlayer(Player *player,World *world);
 void playerMovement(Player *player, float delta);
 void playerInputHandler(Player *player,float delta);
 void useItem(Player *player);

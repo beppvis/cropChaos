@@ -9,13 +9,17 @@ const char *file_paths[NUM_ENTITIES-1] = {"../assets/grass.png","../assets/grass
 
 void loadTextureEntities(Texture2D *entities_texture)
 {
-  for (int i =0;i<NUM_ENTITIES;i++)
+  printf("%d\n",NUM_ENTITIES);
+  // NO IDEA ON WHY THIS IS NEEDED
+  for (int i =0;i<NUM_ENTITIES - 1;i++)
   {
 
+    printf("%d\n",i);
     *entities_texture = LoadTexture(file_paths[i]);
     entities_texture ++;
 
   }
+  printf("ENTITIES:  finished loading \n");
 }
 
 void initEntity(Entity *entity,Texture2D *entities_texture)

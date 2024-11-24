@@ -1,8 +1,9 @@
 
 
 # Item to playerInteraction
-XX player Inventory
 -- player Item Drop
+-- make debug screen
+-- make debug command line
 
 # Player to World
 

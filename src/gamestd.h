@@ -96,8 +96,26 @@ typedef struct TileManager{
   Tile tiles[TILE_MAX_Y][TILE_MAX_X];
 }TileManager;
 
+typedef struct
+{
+  TileManager tileManger;
+  EntityManager entitiyManager;
+  bool render;
+  Vector2i index;
+}Chunk ;
+
+  
+
+typedef struct
+{
+
+  Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
+  Texture2D entitiyTextures[NUM_ENTITIES];
+}World;
+
 typedef struct Player
 {
+  World  *world; //player world
   Vector2 position; //position
   Texture2D sprite; //sprit
   Size size;//size   
@@ -114,23 +132,6 @@ typedef struct Player
 
 
 
-typedef struct
-{
-  TileManager tileManger;
-  EntityManager entitiyManager;
-  bool render;
-  Vector2i index;
-}Chunk ;
-
-  
-
-typedef struct
-{
-
-  Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
-  Player player;
-  Texture2D entitiyTextures[NUM_ENTITIES];
-}World;
 
 Rectangle getRect(Vector2 position,Size size);
 bool isInside(int size_A,Vector2 posA ,Vector2 posB);
@@ -138,6 +139,9 @@ int flip_h(Rectangle *sourceRect);
 int LogIt(char *TAG,char *message, ...);
 //THOUGHTS: I kinda think its unnnecesay
 int getPathTo(char * out,const char *section_path,const char* file_name);
+// (TAG: the property, MESSAGE ):print to screen debugging
+int addDebugText(char *TAG,char *message, ...);
+int renderDebugText();
 // Item -> stat up (effect)
 
 #endif

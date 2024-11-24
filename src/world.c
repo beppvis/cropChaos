@@ -9,6 +9,9 @@ void initWorld(World *world)
   clock_t begin = clock();
   Texture2D entities_texture[NUM_ENTITIES];
   loadTextureEntities(&world->entitiyTextures[0]);
+
+  printf("RUN \n");
+
   for (int c_y = 0; c_y < CHUNK_LIMIT_Y;c_y ++)
   {
     for (int c_x = 0; c_x < CHUNK_LIMIT_X;c_x ++)
@@ -83,5 +86,20 @@ void renderWorld(World *world)
   }
   clock_t end = clock();
   double time_take = (double)(end-begin)/CLOCKS_PER_SEC;
+  char *message;
   printf("Render Time take : %f\n",time_take);
+}
+
+Chunk getChunkWithPos(World *world, Vector2 position)
+{
+  Chunk chunk;
+  // position -> chunk cords
+  printf("CHUNKS : %f : %f\n" ,position.x,position.y);
+  // return chunk
+  return chunk;
+}
+
+void spawnEntity(World *world,Entity *entity)
+{
+  getChunkWithPos(world,entity->position);
 }

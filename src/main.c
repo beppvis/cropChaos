@@ -1,6 +1,6 @@
-#include "gamestd.h"
 #include "raylib.h"
 #include <stdbool.h>
+#include <stdio.h>
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
@@ -24,18 +24,20 @@ int main(){
 
   const Size screenSize = {800,1200};
   InitWindow(screenSize.width,screenSize.height,"Crop");
+
+  printf("BORG \n");
+
+  World world;
+  initWorld(&world);
+
   Player player;
-  initPlayer(&player);
+  initPlayer(&player,&world);
 
   Camera2D camera = {0};
   camera.target = (Vector2){player.position.x + 20.0f,player.position.y+20.0f};
   camera.offset = (Vector2){screenSize.width/2.0f,screenSize.height/2.0f};
   camera.rotation = 0.0f;
   camera.zoom = 1.0f;
-
-  World world;
-  initWorld(&world);
-  world.player = player;
 
 
   SetWindowState(FLAG_WINDOW_MAXIMIZED);

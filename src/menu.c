@@ -1,5 +1,7 @@
 #include "menu.h"
+#include "gamestd.h"
 #include "player.h"
+#include "world.h"
 #include <raylib.h>
 #include <stdint.h>
 
@@ -20,8 +22,6 @@ void playerMenuHandler(Inventory *inv)
 
 void renderInventoryMenu(Player *player)
 {
-  Rectangle menuBox = {player->position.x-250,player->position.y-450,100,100};
-  DrawRectanglePro(menuBox, (Vector2){0,0}, 0, (Color){0,0,3,100});
 
   //rendering layout boxes
 
@@ -29,14 +29,16 @@ void renderInventoryMenu(Player *player)
 
   pos.y = player->position.y;
   int num = 0;
-  float offset = GetScreenWidth()/2.5;
+  float offset = GetScreenWidth()/2. - (PLAYER_INV_LEN/2.3)*50;
+  Rectangle menuBox = {offset+player->position.x -boxSize*(PLAYER_INV_LEN-4),player->position.y,boxSize*PLAYER_INV_LEN/2.,110};
+  DrawRectanglePro(menuBox, (Vector2){0,0}, 0, (Color){0,0,3,100});
   for (int i =0; i < PLAYER_INV_LEN; i++)
   {
     Item *item = &player->inventory.slots[i];
     if(num < PLAYER_INV_LEN/2)
     {
-      pos.x = offset + player->position.x - boxSize * (PLAYER_INV_LEN-4);
-      pos.x += 50*num;    
+      pos.x = offset + player->position.x - boxSize* (PLAYER_INV_LEN-4);
+      pos.x += boxSize*num;    
       num += 1;
     }
 
@@ -63,7 +65,8 @@ void renderInventoryMenu(Player *player)
 }
 void inventoryMouseInteraction(Player *player,Camera2D *camera)
 {
-  Rectangle menuBox = {player->position.x-250,player->position.y-450,500,800};
+  float offset = GetScreenWidth()/2. - (PLAYER_INV_LEN/2.3)*50;
+  Rectangle menuBox = {offset+player->position.x -boxSize*(PLAYER_INV_LEN-4),player->position.y,boxSize*PLAYER_INV_LEN/2.,110};
   Vector2 mousePos = GetScreenToWorld2D( GetMousePosition(),*camera);
   Inventory *inventory = &player->inventory;
 
@@ -86,6 +89,16 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
       if(item.itemType == 0)return;
       inventory->item_grabbed_index = i;
       return;
+    }
+    else if (!(CheckCollisionPointRec(mousePos,menuBox )))
+    {
+      //item is   
+      if (inventory->item_grabbed_index != -1)
+      {
+        Entity dropped_item_entity = itemToEntity(inventory->slots[inventory->item_grabbed_index], player->position);
+        getChunkWithPos(player->world ,player->position);
+
+      }
     }
 
   }
