@@ -202,7 +202,8 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 
 
 Interaction* getInteraction(Player *player,int N){
-  CheckCollisionRecs(, )
+  static Interaction x[1] = {0};
+  return x;
 }
 
 
