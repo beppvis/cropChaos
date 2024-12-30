@@ -6,18 +6,30 @@
 #include <raymath.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160
 #define MIN_HUNGER_TICK  1
 
+void useItem(Player *player) {
+    
+}
 
 void updatePlayer(Player *player ,float delta)
 {
+  int num_of_interaction = 0;
+  getInteraction(player, num_of_interaction);
+
+  if (num_of_interaction){
+    
+  }
+  
   playerMovement(player,delta);
   updateInventory(player);
   updateHunger(player, delta);
   playerMenuHandler(&player->inventory);
+  if (player->hunger >= 100) player->gameOver = true;
 }
 
 
@@ -38,13 +50,10 @@ void playerMovement(Player *player,float delta)
 
 void updateHunger(Player *player, float delta)
 {
-  if (player->isMoving)
-  {
+  if (player->isMoving) {
     player->hunger += MIN_HUNGER_TICK *delta*(player->speed/150);
-  }
-  else
-    player->hunger += MIN_HUNGER_TICK *delta;
-
+  } else
+    player->hunger += MIN_HUNGER_TICK * delta;
 }
 
 void updateInventory(Player *player)
@@ -146,6 +155,7 @@ void renderInventory(Player player)
 void initPlayer(Player *player,World *world)
 {
   Texture2D playerSprite = LoadTexture("../assets/player.png");
+  player->gameOver = false;
   player->sprite = playerSprite;
   player->position = (Vector2){0,0};
   player->speed = 600.;
@@ -154,6 +164,18 @@ void initPlayer(Player *player,World *world)
   player->hunger = 0.00;
   initInventory(player);
 }
+
+char* getPlayerDebugInfo(Player *player){
+  int size = sizeof(*player);
+  char* out = (char *) malloc(size);
+  sprintf(out,"Position : %f,%f" ,player->position.x,player->position.y);
+  sprintf(out, "Speed : %f",player->speed);
+  sprintf(out, "Size: %f,%f",player->size.width,player->size.height);
+  sprintf(out, "Hunger: %f,%f",player->size.width,player->size.height);
+  return out;
+}
+
+
 
 void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 {
@@ -176,6 +198,11 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 
   //   camera->target= Vector2Add(camera->target,Vector2Scale(diff,delta));
   // }
+}
+
+
+Interaction* getInteraction(Player *player,int N){
+  CheckCollisionRecs(, )
 }
 
 

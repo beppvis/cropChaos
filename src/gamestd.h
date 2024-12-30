@@ -119,6 +119,7 @@ typedef struct Player
   Vector2 position; //position
   Texture2D sprite; //sprit
   Size size;//size   
+  bool gameOver;//game over
   bool isMoving;//check if player is moving
   enum FacingDirections facing;// facing direction linked to enum
   bool inMenu;
@@ -128,6 +129,13 @@ typedef struct Player
   int MainHand;
   int  OffHand;
 } Player; 
+
+typedef struct
+{
+  char* message;
+  int value;
+}Interaction;
+
 
 
 

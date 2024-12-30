@@ -21,6 +21,9 @@ Reminder : I started because I thought it was easy
 
 
 int main(){
+  
+  freopen("../logs/LOG.out","w", stdout);
+  freopen("../logs/LOGE.out","w", stderr);
 
   const Size screenSize = {800,1200};
   InitWindow(screenSize.width,screenSize.height,"Crop");
@@ -43,11 +46,15 @@ int main(){
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
-  while (!WindowShouldClose()) {
+  printf("PLAYER : %lu \n ", sizeof(player));
+
+  while (!WindowShouldClose() && !player.gameOver) {
 
     float delta = GetFrameTime();
     updatePlayer(&player,delta);
     cameraFollow(&camera, &player, delta, screenSize);
+    
+    printf("%s\n",getPlayerDebugInfo(&player));
     BeginDrawing();
 
       BeginMode2D(camera);

@@ -18,6 +18,8 @@ void playerInputHandler(Player *player,float delta);
 void useItem(Player *player);
 void consumeItem(Item *item,int inv_index,Player *player);
 void updateHunger(Player *player, float delta);
+char* getPlayerDebugInfo(Player *player);
+Interaction* getInteraction(Player *player,int N); // N being the number of interactions
 void initInventory(Player *player);
 void renderInventory(Player player);
 void renderHand(Player *player);
