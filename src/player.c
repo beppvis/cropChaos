@@ -1,22 +1,35 @@
 #include "player.h"
+#include "gamestd.h"
 #include "menu.c"
 #include "menu.h"
 #include <raylib.h>
 #include <raymath.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #define CAM_LIM 2  
 #define CAM_LIM_MAX 160
 #define MIN_HUNGER_TICK  1
 
+void useItem(Player *player) {
+    
+}
 
 void updatePlayer(Player *player ,float delta)
 {
+  int num_of_interaction = 0;
+  getInteraction(player, num_of_interaction);
+
+  if (num_of_interaction){
+    
+  }
+  
   playerMovement(player,delta);
   updateInventory(player);
   updateHunger(player, delta);
   playerMenuHandler(&player->inventory);
+  if (player->hunger >= 100) player->gameOver = true;
 }
 
 
@@ -37,23 +50,23 @@ void playerMovement(Player *player,float delta)
 
 void updateHunger(Player *player, float delta)
 {
-  if (player->isMoving)
-  {
+  if (player->isMoving) {
     player->hunger += MIN_HUNGER_TICK *delta*(player->speed/150);
-  }
-  else
-    player->hunger += MIN_HUNGER_TICK *delta;
-
+  } else
+    player->hunger += MIN_HUNGER_TICK * delta;
 }
 
 void updateInventory(Player *player)
 {
-  numToInventorySlot(player);
+  int key = GetKeyPressed();
+  numToInventorySlot(player,key);
+
 }
 
-void numToInventorySlot(Player *player)
+void numToInventorySlot(Player *player,int key)
 {
-  switch(GetKeyPressed())
+  addDebugText("Player","pressed ey : %d",key );
+  switch(key)
   {
     case KEY_ONE:
       player->MainHand = 0;
@@ -96,7 +109,7 @@ void renderPlayer(Player *player, Camera2D *camera)
 
 void renderHand(Player *player)
 {
-  Item item = player->inventory.MainSlots[player->MainHand];
+  Item item = player->inventory.slots[player->MainHand];
   if(item.itemType != 0)
   {
     Rectangle source_rec = {0,0,item.sprite.width,item.sprite.height};
@@ -121,7 +134,7 @@ void renderInventory(Player player)
   Inventory inv = player.inventory;
   for (int i = 0; i < 4; i++)
   {
-    Item item = inv.MainSlots[i];
+    Item item = inv.slots[i];
     Rectangle inv_rec = {GetScreenWidth()/3.+50*i,GetScreenHeight()-100,50,50};
     if (item.itemType != 0)
     {
@@ -139,16 +152,30 @@ void renderInventory(Player player)
 
 }
 
-void initPlayer(Player *player)
+void initPlayer(Player *player,World *world)
 {
-  Texture2D playerSprite = LoadTexture("./assets/player.png");
+  Texture2D playerSprite = LoadTexture("../assets/player.png");
+  player->gameOver = false;
   player->sprite = playerSprite;
   player->position = (Vector2){0,0};
   player->speed = 600.;
   player->size = (Size){100,100};
+  player->world = world;
   player->hunger = 0.00;
   initInventory(player);
 }
+
+char* getPlayerDebugInfo(Player *player){
+  int size = sizeof(*player);
+  char* out = (char *) malloc(size);
+  sprintf(out,"Position : %f,%f" ,player->position.x,player->position.y);
+  sprintf(out, "Speed : %f",player->speed);
+  sprintf(out, "Size: %f,%f",player->size.width,player->size.height);
+  sprintf(out, "Hunger: %f,%f",player->size.width,player->size.height);
+  return out;
+}
+
+
 
 void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 {
@@ -174,17 +201,23 @@ void cameraFollow(Camera2D *camera,Player *player,float delta,Size screen_size)
 }
 
 
+Interaction* getInteraction(Player *player,int N){
+  static Interaction x[1] = {0};
+  return x;
+}
+
+
 void initInventory(Player *player)
 {
   for (int i = 0; i < PLAYER_INV_LEN ; i++)
   {
     if ( i ==2)
     {
-      player->inventory.MainSlots[i] = getBread();
+      player->inventory.slots[i] = getBread();
     }
     else
     {
-      player->inventory.MainSlots[i] = getNullItem();
+      player->inventory.slots[i] = getNullItem();
     }
   }
   //Assuming its not null
@@ -193,3 +226,4 @@ void initInventory(Player *player)
   player->MainHand = 0;
   player->OffHand = 1;
 }
+

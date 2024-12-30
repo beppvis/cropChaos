@@ -1,15 +1,15 @@
 #include "raylib.h"
 #include <stdbool.h>
+#include <stdio.h>
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
-#include "entities.c"
-
+#include "world.c"
 //                       
 
 /*
 ////////////////////////////////////////////////////
-Reminder : This is the TEST Folder
+Reminder : I started because I thought it was easy
 ////////////////////////////////////////////////////
 */
 /*
@@ -19,14 +19,22 @@ Reminder : This is the TEST Folder
 */
 
 
-void renderEntities(Entity *entities,int num);
 
-int main(void){
+int main(){
+  
+  freopen("../logs/LOG.out","w", stdout);
+  freopen("../logs/LOGE.out","w", stderr);
 
-  const Size screenSize = {500,900};
+  const Size screenSize = {800,1200};
   InitWindow(screenSize.width,screenSize.height,"Crop");
+
+  printf("BORG \n");
+
+  World world;
+  initWorld(&world);
+
   Player player;
-  initPlayer(&player);
+  initPlayer(&player,&world);
 
   Camera2D camera = {0};
   camera.target = (Vector2){player.position.x + 20.0f,player.position.y+20.0f};
@@ -34,38 +42,34 @@ int main(void){
   camera.rotation = 0.0f;
   camera.zoom = 1.0f;
 
-  Entity entities[TILE_MAX_X*TILE_MAX_Y];
-  int num_enities;
-  Texture2D entities_texture[NUM_ENTITIES];
 
-  TileManager tileManager;
-  initTilemanager(&tileManager);
-  dumbTiles(&tileManager,entities,&num_enities);
-  loadTextureEntities(entities_texture);
-  initEntities(entities,num_enities,entities_texture);
   SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
-  while (!WindowShouldClose()) {
+  printf("PLAYER : %lu \n ", sizeof(player));
+
+  while (!WindowShouldClose() && !player.gameOver) {
 
     float delta = GetFrameTime();
     updatePlayer(&player,delta);
     cameraFollow(&camera, &player, delta, screenSize);
+    
+    printf("%s\n",getPlayerDebugInfo(&player));
     BeginDrawing();
 
       BeginMode2D(camera);
-      
+
         ClearBackground(BLACK);
-        renderTiles(&tileManager);
-        renderEntities(entities, num_enities);
+        renderWorld(&world);
         renderPlayer(&player,&camera);
-        
+
       EndMode2D();
 
     renderHUD(&player);
     EndDrawing();
   
   }  
+
   CloseWindow();
 
   return 0;
