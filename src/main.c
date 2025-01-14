@@ -1,4 +1,5 @@
-#include "raylib.h"
+#include "../include/raylib.h"
+#include "../include/raygui.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.c"
@@ -17,9 +18,6 @@ Reminder : I started because I thought it was easy
   GRASS --> DIRT,
   WATER --> DIRT,
 */
-
-
-
 int main(){
   
   freopen("../logs/LOG.out","w", stdout);
@@ -59,6 +57,7 @@ int main(){
 
       BeginMode2D(camera);
 
+        GuiButton((Rectangle) {10,10,10,10}, "Helllo");
         ClearBackground(BLACK);
         renderWorld(&world);
         renderPlayer(&player,&camera);

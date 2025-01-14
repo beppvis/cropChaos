@@ -6,7 +6,6 @@
 #include "gamestd.h"
 #include "entities.c"
 #include "tilemap.h"
-#include <raylib.h>
 
 void initWorld(World *world);
 void initChunk(Chunk *chunk,Vector2i chunk_index,Texture2D *entities_texture);

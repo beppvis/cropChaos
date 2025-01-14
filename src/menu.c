@@ -2,7 +2,6 @@
 #include "gamestd.h"
 #include "player.h"
 #include "world.h"
-#include <raylib.h>
 #include <stdint.h>
 
 void playerMenuHandler(Inventory *inv)

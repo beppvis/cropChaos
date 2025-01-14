@@ -1,7 +1,6 @@
-#include <raylib.h>
+#include "gamestd.h"
 #include <stdio.h>
 #include "entities.h"
-#include "gamestd.h"
 
 
 const char *file_paths[NUM_ENTITIES-1] = {"../assets/grass.png","../assets/grass.png","../assets/grass.png"};

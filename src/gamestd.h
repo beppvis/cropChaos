@@ -1,8 +1,8 @@
 #ifndef game_std_h_
 #define game_std_h_
 
-#include "raylib.h"
-#include "raymath.h"
+#include "../include/raylib.h"
+#include "../include/raymath.h"
 #include "stdio.h"
 #include "enums.c"
 
