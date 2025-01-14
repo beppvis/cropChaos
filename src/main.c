@@ -1,11 +1,12 @@
 #include "../include/raylib.h"
-#include "../include/raygui.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
+#define RAYGUI_IMPLEMENTATION
+#include "../include/raygui.h"
 //                       
 
 /*
@@ -57,13 +58,13 @@ int main(){
 
       BeginMode2D(camera);
 
-        GuiButton((Rectangle) {10,10,10,10}, "Helllo");
         ClearBackground(BLACK);
         renderWorld(&world);
         renderPlayer(&player,&camera);
 
       EndMode2D();
 
+      //   GuiButton((Rectangle){10,10,100,200},"sdjadlk");
     renderHUD(&player);
     EndDrawing();
   

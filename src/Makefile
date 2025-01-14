@@ -16,7 +16,7 @@ cc = clang
 compile: 
 	@echo "compiling .. "
 ifeq ($(PLATFORM_OS),LINUX)
-	${cc} -o ./build/cropchaos.o ./main.c -lraylib -L./build/ 
+	${cc}  -o ./build/cropchaos.o ./main.c -lraylib -I"../include/" -lm
 endif
 ifeq ($(PLATFORM_OS),OSX)
 	${cc} -I"../include/" ./main.c  -o ./build/cropchaos ${pkg_config} -L"./build/" -lgui
