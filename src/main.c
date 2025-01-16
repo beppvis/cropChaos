@@ -1,4 +1,5 @@
 #include "../include/raylib.h"
+#include <stdatomic.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.c"
@@ -24,10 +25,10 @@ int main(){
   freopen("../logs/LOG.out","w", stdout);
   freopen("../logs/LOGE.out","w", stderr);
 
-  const Size screenSize = {800,1200};
+  //new screen size made for mac  i3 might have made it wrong for me
+  const Size screenSize = {500,800};
   InitWindow(screenSize.width,screenSize.height,"Crop");
 
-  printf("BORG \n");
 
   World world;
   initWorld(&world);
@@ -42,7 +43,7 @@ int main(){
   camera.zoom = 1.0f;
 
 
-  SetWindowState(FLAG_WINDOW_MAXIMIZED);
+  // SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
   printf("PLAYER : %lu \n ", sizeof(player));
@@ -56,9 +57,12 @@ int main(){
     printf("%s\n",getPlayerDebugInfo(&player));
     BeginDrawing();
 
+      ClearBackground(BLACK);
+      int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
+
+      GuiLabel((Rectangle){10,20,100,10}, );
       BeginMode2D(camera);
 
-        ClearBackground(BLACK);
         renderWorld(&world);
         renderPlayer(&player,&camera);
 

@@ -19,9 +19,11 @@ ifeq ($(PLATFORM_OS),LINUX)
 	${cc}  -o ./build/cropchaos.o ./main.c -lraylib -I"../include/" -lm
 endif
 ifeq ($(PLATFORM_OS),OSX)
-	${cc} -I"../include/" ./main.c  -o ./build/cropchaos ${pkg_config} -L"./build/" -lgui
+	${cc} -o ./build/cropchaos ./main.c -I"../include/" ${pkg_config} -L"./build/" 
 endif
 
+run: compile
+	./build/cropchaos
 
 clean:
 	@echo "Cleaning build..."
