@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.c"
+#include "gamestd.h"
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
@@ -60,7 +61,10 @@ int main(){
       ClearBackground(BLACK);
       int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
 
-      GuiLabel((Rectangle){10,20,100,10}, );
+      char debugBuff[100];
+      // sprintf(debugBuff,"Pos:%f,%f",player.position.x,player.position.y);
+      sprintf(debugBuff,"Chunk limits : %d,%d",CHUNK_LIMIT_X,CHUNK_LIMIT_Y);
+      GuiLabel((Rectangle){10,60,100,10},debugBuff);
       BeginMode2D(camera);
 
         renderWorld(&world);
