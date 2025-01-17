@@ -1,4 +1,6 @@
 #include "world.h"
+#include "tilemap.h"
+#include <stddef.h>
 #include <stdio.h>
 #include <time.h>
 
@@ -16,14 +18,14 @@ void initWorld(World *world)
   {
     for (int c_x = 0; c_x < CHUNK_LIMIT_X;c_x ++)
     {
-      printf("INIT Chunk (%d,%d) STARTED\n",c_y,c_x);
+      printf("INIT Chunk (%zd,%zd) STARTED\n",c_y,c_x);
 
       Vector2i chunk_index = {c_x,c_y};
       Chunk *chunk = &world->Chunks[chunk_index.y][chunk_index.x]; 
       initChunk(chunk,chunk_index,world->entitiyTextures);
       placeTilesInChunk(chunk);
 
-      printf("INIT Chunk (%d,%d) FINISHED \n",c_y,c_x);
+      // printf("INIT Chunk (%zd,%zd) FINISHED \n",c_y,c_x);
 
     }
   }
