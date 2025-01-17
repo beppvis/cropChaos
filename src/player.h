@@ -2,8 +2,8 @@
 #define player_h
 
 
-#include <raylib.h>
-#include <raymath.h>
+#include "../include/raylib.h"
+#include "../include/raymath.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.h"

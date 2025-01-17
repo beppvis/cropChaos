@@ -1,8 +1,8 @@
 #ifndef game_std_h_
 #define game_std_h_
 
-#include "raylib.h"
-#include "raymath.h"
+#include "../include/raylib.h"
+#include "../include/raymath.h"
 #include "stdio.h"
 #include "enums.c"
 
@@ -19,9 +19,11 @@
 // In a chunk
 #define MAX_ENTITIES  100
 
-#define CHUNK_SIZE 5
-#define CHUNK_LIMIT_X TILE_MAX_Y/CHUNK_SIZE
-#define CHUNK_LIMIT_Y TILE_MAX_X/CHUNK_SIZE
+// this init should vary on user settings 
+#define INIT_CHUNK_NUM 6 
+#define CHUNK_SIZE 20
+#define CHUNK_LIMIT_X  (TILE_MAX_X*INIT_CHUNK_NUM)/CHUNK_SIZE
+#define CHUNK_LIMIT_Y  (TILE_MAX_Y*INIT_CHUNK_NUM)/CHUNK_SIZE
 
 //LOG FILE name
 

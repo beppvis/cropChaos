@@ -1,6 +1,6 @@
 #include "items.h"
 #include "gamestd.h"
-#include <raylib.h>
+#include "../include/raylib.h"
 #include <stdio.h>
 
 Color getItemColor(Item item)

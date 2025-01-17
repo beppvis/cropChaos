@@ -1,15 +1,18 @@
-#include "raylib.h"
+#include "../include/raylib.h"
+#include <stdatomic.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.c"
+#include "gamestd.h"
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
+#define RAYGUI_IMPLEMENTATION
+#include "../include/raygui.h"
 //                       
 
 /*
 ////////////////////////////////////////////////////
-Reminder : I started because I thought it was easy
 ////////////////////////////////////////////////////
 */
 /*
@@ -17,18 +20,15 @@ Reminder : I started because I thought it was easy
   GRASS --> DIRT,
   WATER --> DIRT,
 */
-
-
-
 int main(){
   
   freopen("../logs/LOG.out","w", stdout);
   freopen("../logs/LOGE.out","w", stderr);
 
-  const Size screenSize = {800,1200};
+  //new screen size made for mac  i3 might have made it wrong for me
+  const Size screenSize = {500,800};
   InitWindow(screenSize.width,screenSize.height,"Crop");
 
-  printf("BORG \n");
 
   World world;
   initWorld(&world);
@@ -43,7 +43,7 @@ int main(){
   camera.zoom = 1.0f;
 
 
-  SetWindowState(FLAG_WINDOW_MAXIMIZED);
+  // SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
   printf("PLAYER : %lu \n ", sizeof(player));
@@ -57,14 +57,21 @@ int main(){
     printf("%s\n",getPlayerDebugInfo(&player));
     BeginDrawing();
 
+      ClearBackground(BLACK);
+      int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
+
+      char debugBuff[100];
+      // sprintf(debugBuff,"Pos:%f,%f",player.position.x,player.position.y);
+      sprintf(debugBuff,"Chunk limits : %d,%d",CHUNK_LIMIT_X,CHUNK_LIMIT_Y);
+      GuiLabel((Rectangle){10,60,100,10},debugBuff);
       BeginMode2D(camera);
 
-        ClearBackground(BLACK);
         renderWorld(&world);
         renderPlayer(&player,&camera);
 
       EndMode2D();
 
+      //   GuiButton((Rectangle){10,10,100,200},"sdjadlk");
     renderHUD(&player);
     EndDrawing();
   

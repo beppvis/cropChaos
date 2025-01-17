@@ -1,6 +1,5 @@
 #ifndef tilemap_h
 #define tilemap_h
-#include "raylib.h"
 #include "gamestd.h"
 #include "stdio.h"
 #include <stdbool.h>

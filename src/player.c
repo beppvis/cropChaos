@@ -2,8 +2,6 @@
 #include "gamestd.h"
 #include "menu.c"
 #include "menu.h"
-#include <raylib.h>
-#include <raymath.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>

@@ -2,7 +2,6 @@
 #ifndef menu_h 
 #define menu_h
 
-#include <raylib.h>
 #include "player.h"
 #include "gamestd.h"
 
