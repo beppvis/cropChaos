@@ -46,8 +46,7 @@ int main(){
   // SetWindowState(FLAG_WINDOW_MAXIMIZED);
   SetTargetFPS(60);
 
-  printf("PLAYER : %lu \n ", sizeof(player));
-
+  printf("PLAYER : %lu \n", sizeof(player));
   while (!WindowShouldClose() && !player.gameOver) {
 
     float delta = GetFrameTime();
@@ -58,12 +57,6 @@ int main(){
     BeginDrawing();
 
       ClearBackground(BLACK);
-      int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
-
-      char debugBuff[100];
-      // sprintf(debugBuff,"Pos:%f,%f",player.position.x,player.position.y);
-      sprintf(debugBuff,"Chunk limits : %d,%d",CHUNK_LIMIT_X,CHUNK_LIMIT_Y);
-      GuiLabel((Rectangle){10,60,100,10},debugBuff);
       BeginMode2D(camera);
 
         renderWorld(&world);
@@ -71,7 +64,12 @@ int main(){
 
       EndMode2D();
 
-      //   GuiButton((Rectangle){10,10,100,200},"sdjadlk");
+        int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
+
+        char debugBuff[100];
+        sprintf(debugBuff,"Chunk limits : %d,%d",CHUNK_LIMIT_X,CHUNK_LIMIT_Y);
+        GuiLabel((Rectangle){10,60,100,10},debugBuff);
+
     renderHUD(&player);
     EndDrawing();
   

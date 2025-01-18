@@ -1,4 +1,5 @@
 #include "world.h"
+#include "gamestd.h"
 #include "tilemap.h"
 #include <stddef.h>
 #include <stdio.h>
@@ -18,7 +19,7 @@ void initWorld(World *world)
   {
     for (int c_x = 0; c_x < CHUNK_LIMIT_X;c_x ++)
     {
-      printf("INIT Chunk (%zd,%zd) STARTED\n",c_y,c_x);
+      printf("INIT Chunk (%d,%d) STARTED\n",c_y,c_x);
 
       Vector2i chunk_index = {c_x,c_y};
       Chunk *chunk = &world->Chunks[chunk_index.y][chunk_index.x]; 
@@ -48,19 +49,18 @@ void initChunk(Chunk *chunk,Vector2i chunk_index,Texture2D *entities_texture)
 void initTilemanager(Chunk *chunk)
 {
   TileManager *tileManager = &chunk->tileManger;
-  int i = 0 ;
-  for (int y = 0; y<TILE_MAX_Y; y ++)
+  for (int y = 0 ; y<TILE_MAX_Y; y ++)
   {
-    for (int x = 0; x<TILE_MAX_X; x ++)
+    for (int x = 0 ; x<TILE_MAX_X; x ++)
     {
-        Tile tile = {
-          .index= (Vector2i){x,y},
-          .position = (Vector2){x*50,y*50},
+      Tile tile = {
+          .index = (Vector2i){x, y},
+          .position = (Vector2){(x * 50) +(50*CHUNK_SIZE* chunk->index.x),
+                                (y * 50) + (50*CHUNK_SIZE* chunk->index.y)},
           .terrainType = NULL_TILE,
-          .possibilites = {1,1,1,1},
-        };
-        tileManager->tiles[y][x]= tile;
-        i ++;
+          .possibilites = {1, 1, 1, 1},
+      };
+      tileManager->tiles[y][x] = tile;
     }
   }
 }

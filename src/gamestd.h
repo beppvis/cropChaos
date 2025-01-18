@@ -20,7 +20,7 @@
 #define MAX_ENTITIES  100
 
 // this init should vary on user settings 
-#define INIT_CHUNK_NUM 6 
+#define INIT_CHUNK_NUM 3 
 #define CHUNK_SIZE 20
 #define CHUNK_LIMIT_X  (TILE_MAX_X*INIT_CHUNK_NUM)/CHUNK_SIZE
 #define CHUNK_LIMIT_Y  (TILE_MAX_Y*INIT_CHUNK_NUM)/CHUNK_SIZE
