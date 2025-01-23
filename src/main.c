@@ -7,6 +7,7 @@
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
+#include "world.h"
 #define RAYGUI_IMPLEMENTATION
 #include "../include/raygui.h"
 //                       
@@ -22,7 +23,7 @@
 */
 int main(){
   
-  freopen("../logs/LOG.out","w", stdout);
+  //freopen("../logs/LOG.out","w", stdout);
   freopen("../logs/LOGE.out","w", stderr);
 
   //new screen size made for mac  i3 might have made it wrong for me
@@ -67,8 +68,10 @@ int main(){
         int out = GuiSlider((Rectangle){10,10,100,10}, "hoo", "hee", &player.speed,100.0,1000.0 );
 
         char debugBuff[100];
-        sprintf(debugBuff,"Chunk limits : %d,%d",CHUNK_LIMIT_X,CHUNK_LIMIT_Y);
-        GuiLabel((Rectangle){10,60,100,10},debugBuff);
+        Vector2i chunk_i = getChunkIndex(&world, player.position);
+        sprintf(debugBuff,"Player is in CHUNK: %d,%d",chunk_i.x,chunk_i.y);
+        DrawText(debugBuff, 20 , 20, 20, BLUE);
+        //GuiLabel((Rectangle){10,60,100,10},debugBuff);
 
     renderHUD(&player);
     EndDrawing();

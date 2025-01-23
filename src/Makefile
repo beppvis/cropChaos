@@ -16,13 +16,14 @@ cc = clang
 compile: 
 	@echo "compiling .. "
 ifeq ($(PLATFORM_OS),LINUX)
-	${cc}  -o ./build/cropchaos.o ./main.c -lraylib -I"../include/" -lm
+	${cc}  -o ./build/cropchaos ./main.c -lraylib -I"../include/" -lm
 endif
 ifeq ($(PLATFORM_OS),OSX)
 	${cc} -o ./build/cropchaos ./main.c -I"../include/" ${pkg_config} -L"./build/" 
 endif
 
 run: compile
+	@echo "Runnning the binary"
 	./build/cropchaos
 
 clean:

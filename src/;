@@ -81,7 +81,11 @@ void renderChunkDebug(Chunk *chunk)
 void renderChunk(Chunk *chunk)
 {
   renderTiles(&chunk->tileManger); 
-  renderEntities(&chunk->entitiyManager);
+  int static render_nums =  0; 
+  if  (render_nums < 1){
+      renderEntities(&chunk->entitiyManager);
+      render_nums++;
+  }
   if (IsKeyDown(DBG_KEY)) renderChunkDebug(chunk);
 }
 
@@ -106,11 +110,9 @@ Chunk *getChunkWithIndex(World *world, Vector2i index)
   // position -> chunk cords
   // return chunk
 
-  // Validating if the given index is within the bound 
-  if ((index.x * index.y) >= sizeof(world->Chunks))
-    return NULL;
+  //if (index.x > world->Chunks) 
 
-  return &world->Chunks[index.y][index.x];
+  return NULL;
 }
 
 Vector2i getChunkIndex(World *world,Vector2 position){
@@ -121,15 +123,10 @@ Vector2i getChunkIndex(World *world,Vector2 position){
   return (Vector2i) {x,y};
 }
 
+
+
+
 void spawnEntity(World *world,Entity *entity)
 {
-  Vector2i chunk_i = getChunkIndex(world, entity->position);
-  Chunk* chunk = getChunkWithIndex(world, chunk_i);
-  if (chunk->entitiyManager.num_entites == MAX_ENTITIES) 
-  {
-    fprintf(stderr, "[CHUNK] : Num of entities exceeded \n");
-  }
-  chunk->entitiyManager.Entities[chunk->entitiyManager.num_entites] = *entity; 
-  chunk->entitiyManager.num_entites ++;
-
+  getChunkWithPos(world,entity->position);
 }

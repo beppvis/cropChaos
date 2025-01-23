@@ -32,7 +32,7 @@ void initEntityManager(Chunk *chunk,Texture2D *entitiesTexture)
 {
   EntityManager *entityManager = &chunk->entitiyManager;
   Entity *entities = &(entityManager->Entities[0]);
-  for (int i = 0 ;i<MAX_ENTITIES ;i++)
+  for (int i = 0 ;i< MAX_ENTITIES ;i++)
   {
     initEntity(entities,entitiesTexture);
     entities ++;

@@ -3,6 +3,7 @@
 #include "player.h"
 #include "world.h"
 #include <stdint.h>
+#include <stdio.h>
 
 void playerMenuHandler(Inventory *inv)
 {
@@ -94,9 +95,12 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
       //item is   
       if (inventory->item_grabbed_index != -1)
       {
-        Entity dropped_item_entity = itemToEntity(inventory->slots[inventory->item_grabbed_index], player->position);
-        getChunkWithPos(player->world ,player->position);
-
+        if (IsMouseButtonPressed(MOUSE_BUTTON_LEFT))
+        {
+          fprintf(stdout,"[PLAYER] Item dropped\n"); 
+          Entity dropped_item_entity = itemToEntity(inventory->slots[inventory->item_grabbed_index], player->position);
+          spawnEntity(player->world, &dropped_item_entity);
+        }
       }
     }
 
