@@ -11,7 +11,7 @@ void initWorld(World *world);
 void initChunk(Chunk *chunk,Vector2i chunk_index,Texture2D *entities_texture);
 void initTilemanager(Chunk *chunk);
 Chunk* getChunkWithIndex(World *world, Vector2i index);
-void spawnEntity(World *world,Entity *entity);
+void spawnEntityInWorld(World *world,Entity *entity);
 Vector2i getChunkIndex(World *world,Vector2 Position);
 void renderChunkDebug(Chunk *chunk);
 

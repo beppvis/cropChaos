@@ -8,7 +8,7 @@
 #define boxOffset 150
 #define boxSize 50
 
-void playerMenuHandler(Inventory *inv);
+void playerMenuHandler(Player *player);
 void renderInventoryMenu(Player *player);
 void inventoryMouseInteraction(Player *player,Camera2D *camera);
 void ItemMouse(Inventory *inventory,Camera2D camera);

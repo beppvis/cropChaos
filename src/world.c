@@ -11,7 +11,7 @@ void initWorld(World *world)
 {
   clock_t begin = clock();
   Texture2D entities_texture[NUM_ENTITIES];
-  loadTextureEntities(&world->entitiyTextures[0]);
+  loadTextureEntities(&world->entityTextures[0]);
 
   printf("RUN \n");
 
@@ -23,7 +23,7 @@ void initWorld(World *world)
 
       Vector2i chunk_index = {c_x,c_y};
       Chunk *chunk = &world->Chunks[chunk_index.y][chunk_index.x]; 
-      initChunk(chunk,chunk_index,world->entitiyTextures);
+      initChunk(chunk,chunk_index,world->entityTextures);
       placeTilesInChunk(chunk);
 
       // printf("INIT Chunk (%zd,%zd) FINISHED \n",c_y,c_x);
@@ -81,7 +81,7 @@ void renderChunkDebug(Chunk *chunk)
 void renderChunk(Chunk *chunk)
 {
   renderTiles(&chunk->tileManger); 
-  renderEntities(&chunk->entitiyManager);
+  renderEntities(&chunk->entityManager);
   if (IsKeyDown(DBG_KEY)) renderChunkDebug(chunk);
 }
 
@@ -121,15 +121,17 @@ Vector2i getChunkIndex(World *world,Vector2 position){
   return (Vector2i) {x,y};
 }
 
-void spawnEntity(World *world,Entity *entity)
+void spawnEntityInWorld(World *world,Entity *entity)
 {
   Vector2i chunk_i = getChunkIndex(world, entity->position);
   Chunk* chunk = getChunkWithIndex(world, chunk_i);
-  if (chunk->entitiyManager.num_entites == MAX_ENTITIES) 
+  if (chunk->entityManager.num_entites == MAX_ENTITIES) 
   {
     fprintf(stderr, "[CHUNK] : Num of entities exceeded \n");
   }
-  chunk->entitiyManager.Entities[chunk->entitiyManager.num_entites] = *entity; 
-  chunk->entitiyManager.num_entites ++;
+
+  addEntity(&chunk->entityManager,entity);
+
+
 
 }

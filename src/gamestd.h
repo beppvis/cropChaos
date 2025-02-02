@@ -101,7 +101,7 @@ typedef struct TileManager{
 typedef struct
 {
   TileManager tileManger;
-  EntityManager entitiyManager;
+  EntityManager entityManager;
   bool render;
   Vector2i index;
 }Chunk ;
@@ -112,7 +112,7 @@ typedef struct
 {
 
   Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
-  Texture2D entitiyTextures[NUM_ENTITIES];
+  Texture2D entityTextures[NUM_ENTITIES];
 }World;
 
 typedef struct Player
