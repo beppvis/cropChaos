@@ -3,8 +3,11 @@
 #include <stdio.h>
 
 
+// WARNING : this num_entites is an element of an enum , so be sure that if the enum changes this also gets fucked
 const char *file_paths[NUM_ENTITIES - 1] = {
-    "../assets/grass.png", "../assets/grass.png", "../assets/grass.png"};
+    "../assets/grass.png",
+   "../assets/grass.png" 
+};
 
 void loadTextureEntities(Texture2D *entities_texture) {
   printf("%d\n", NUM_ENTITIES);

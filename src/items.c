@@ -11,14 +11,16 @@ Color getItemColor(Item item)
   return RED;
 }
 
+
+// returns an entitiy with an ITEM_ENTITY type
 Entity itemToEntity(Item item,Vector2 position)
 {
-
-  return (Entity){item.sprite,ITEM,position};  
+  return (Entity){item.sprite,ITEM_ENTITY,position};  
 
 }
 
 
+// adds item to inventory
 void itemToInvetory(Item item,Inventory *inv)
 {
   for (int i =0 ; i < PLAYER_INV_LEN; i++)

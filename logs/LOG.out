@@ -78,7 +78,7 @@ INIT 8 : FINISHED
 INIT Chunk (2,2) STARTED
 INIT 9 : STARTED
 INIT 9 : FINISHED
-Total INIT time taken : 0.000130
+Total INIT time taken : 0.000136
 INFO: FILEIO: [../assets/player.png] File loaded successfully
 INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
 INFO: TEXTURE: [ID 6] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
@@ -87,364 +87,501 @@ INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
 INFO: TEXTURE: [ID 7] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
 INFO: TIMER: Target time per frame: 16.667 milliseconds
 PLAYER : 600 
- hello 
- ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000154
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000153
+Render Time take : 0.000157
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000167
+Render Time take : 0.000161
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000163
+Render Time take : 0.000158
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000183
+Render Time take : 0.000172
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000181
+Render Time take : 0.000160
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000179
+Render Time take : 0.000205
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000217
+Render Time take : 0.000194
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000198
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.000207
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000209
+Render Time take : 0.000244
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000209
+Render Time take : 0.000231
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000237
+Render Time take : 0.000229
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000282
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.000257
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000292
+Render Time take : 0.000288
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000335
+Render Time take : 0.000291
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.000334
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000397
+Render Time take : 0.000331
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000466
+Render Time take : 0.000418
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000460
+Render Time take : 0.000479
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001155
+Render Time take : 0.000403
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001170
+Render Time take : 0.000530
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001159
+Render Time take : 0.000569
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001153
+Render Time take : 0.000679
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000153
+Render Time take : 0.000687
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000286
+Render Time take : 0.001107
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000469
+Render Time take : 0.001184
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000504
+Render Time take : 0.000786
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001174
+Render Time take : 0.000687
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000467
+Render Time take : 0.000601
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000873
+Render Time take : 0.000462
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000686
+Render Time take : 0.000579
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000504
+Render Time take : 0.000880
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000562
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000745
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000571
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000559
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001152
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001151
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001165
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001152
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001095
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000659
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001088
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000930
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000748
+Render Time take : 0.000697
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.000675
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000658
+Render Time take : 0.000616
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000840
+Render Time take : 0.000686
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001155
+Render Time take : 0.000708
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001204
+Render Time take : 0.000703
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001156
+Render Time take : 0.000517
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001151
+Render Time take : 0.000877
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001153
+Render Time take : 0.000785
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000985
+Render Time take : 0.000607
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001016
+Render Time take : 0.000680
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000951
+Render Time take : 0.000573
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000872
+Render Time take : 0.000873
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000839
+Render Time take : 0.000795
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001061
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001037
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001154
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001157
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000565
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001148
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001179
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000946
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001151
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001149
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001151
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001151
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001156
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001161
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001149
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001155
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001158
+Render Time take : 0.000542
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.000673
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001059
+Render Time take : 0.000637
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001213
+Render Time take : 0.000566
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001151
+Render Time take : 0.000868
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000822
+Render Time take : 0.000669
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000690
+Render Time take : 0.000868
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000659
+Render Time take : 0.000569
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.000840
+Render Time take : 0.000669
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001166
+Render Time take : 0.000878
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001152
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001153
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001156
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001189
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000838
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001151
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.000849
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001153
+Render Time take : 0.000953
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.001161
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001165
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001148
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001150
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001149
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001156
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001152
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-Render Time take : 0.001175
+Render Time take : 0.000575
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.001162
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001159
+Render Time take : 0.001166
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001196
+Render Time take : 0.000566
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001147
+Render Time take : 0.000850
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001152
+Render Time take : 0.000666
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001151
+Render Time take : 0.000865
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001177
+Render Time take : 0.000855
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001151
+Render Time take : 0.000688
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001149
+Render Time take : 0.000718
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001151
+Render Time take : 0.000863
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000913
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000869
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000979
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000860
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000622
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001089
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000867
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000684
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000294
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000324
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000287
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000334
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000333
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000503
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000257
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000256
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000285
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000296
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000333
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000332
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000408
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000517
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000946
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000720
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000872
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000901
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000862
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000887
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000730
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000948
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 Render Time take : 0.001165
 ADDED ENTRY
 Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000869
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001215
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001056
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001096
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001222
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001142
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001200
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000856
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000901
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000632
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000599
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001197
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000980
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000864
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000717
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001097
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000802
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000902
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000589
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001282
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001204
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001199
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000903
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000947
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001186
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000998
+ADDED ENTRY
+Hunger: 100.000000,100.000000
 Render Time take : 0.001175
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001182
+Render Time take : 0.000791
 ADDED ENTRY
 Hunger: 100.000000,100.000000
-Render Time take : 0.001273
+Render Time take : 0.000864
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000920
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000895
 INFO: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
 INFO: SHADER: [ID 3] Default shader unloaded successfully
 INFO: TEXTURE: [ID 1] Default texture unloaded successfully

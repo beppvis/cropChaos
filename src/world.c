@@ -135,6 +135,9 @@ void spawnEntityInWorld(World *world,Entity *entity)
   addEntity(&chunk->entityManager,entity);
   fprintf(stdout,"[CHUNK]{%d,%d} : Spawning entity at {%f,%f}\n",chunk->index.x,chunk->index.y,entity->position.x,entity->position.y);
   return;
-
-
 }
+
+
+
+
+

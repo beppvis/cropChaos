@@ -1,8 +1,14 @@
 
 
 # Item to playerInteraction
--- player Item Drop
+-- player dropped item pickup
+-- better texture Loader
+    - Currently its just an list with limited no of items , but I want something more versitile 
+    - Maybe hashmaps ? 
+
+
 -- make debug screen
+
 -- make debug command line
 
 # Player to World
