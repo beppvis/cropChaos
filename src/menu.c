@@ -105,6 +105,7 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
           fprintf(stdout,"[PLAYER] Item dropped\n"); 
           Entity dropped_item_entity = itemToEntity(inventory->slots[inventory->item_grabbed_index], player->position);
           spawnEntityInWorld(player->world, &dropped_item_entity);
+          inventory->slots[inventory->item_grabbed_index] =getNullItem() ;
         }
       }
     }

@@ -29,8 +29,7 @@ int main() {
 
   InitWindow(screenSize.width, screenSize.height, "Crop");
 
-  World world;
-  initWorld(&world);
+  World world; initWorld(&world);
 
   Player player;
   initPlayer(&player, &world);
@@ -48,17 +47,8 @@ int main() {
   SetTargetFPS(60);
 
   printf("PLAYER : %lu \n", sizeof(player));
-  Chunk *test  = getChunkWithIndex(&world, (Vector2i){1,1}) ;
-  
-  Entity entity = (Entity) 
-  {
-      LoadTexture("../assets/bread.png"),
-      0,
-      (Vector2){10,10},
-  };
-  addEntity(&test->entityManager,&entity);
 
-  while (!WindowShouldClose() && !player.gameOver) {
+   while (!WindowShouldClose() && !player.gameOver) {
 
     float delta = GetFrameTime();
     updatePlayer(&player, delta);

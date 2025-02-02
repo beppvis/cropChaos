@@ -61,8 +61,8 @@ void renderEntities(EntityManager *entityManager) {
     Rectangle sourceRec =
         getRect((Vector2){0, 0},
                 (Size){entities->sprite.width, entities->sprite.height});
-    Rectangle destRec = getRect((Vector2){entities->position.x * TILE_SIZE,
-                                          entities->position.y * TILE_SIZE},
+    Rectangle destRec = getRect((Vector2){entities->position.x  ,
+                                          entities->position.y },
                                 (Size){TILE_SIZE, TILE_SIZE});
     Texture2D spirte = entities->sprite;
     DrawTexturePro(spirte, sourceRec, destRec, (Vector2){0, 0}, 0, WHITE);
