@@ -12,6 +12,6 @@ void renderEntities(EntityManager *entityManager);
 void initEntityManager(Chunk *chunk,Texture2D *entities_texture);
 // for adding an entitiy into the entityManager->entities,  also increase the num of entities
 void addEntity(EntityManager* entityManager , Entity* entity);
-
+Entity getTestEntitiy()
 
 #endif

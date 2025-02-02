@@ -113,6 +113,7 @@ Chunk *getChunkWithIndex(World *world, Vector2i index)
   return &world->Chunks[index.y][index.x];
 }
 
+// To get the chunk Index 
 Vector2i getChunkIndex(World *world,Vector2 position){
   int x = 0;
   int y = 0;
@@ -125,13 +126,15 @@ void spawnEntityInWorld(World *world,Entity *entity)
 {
   Vector2i chunk_i = getChunkIndex(world, entity->position);
   Chunk* chunk = getChunkWithIndex(world, chunk_i);
-  if (chunk->entityManager.num_entites == MAX_ENTITIES) 
+  if (chunk->entityManager.num_entites == MAX_ENTITIES-1) 
   {
     fprintf(stderr, "[CHUNK] : Num of entities exceeded \n");
+    return;
   }
 
   addEntity(&chunk->entityManager,entity);
-
+  fprintf(stdout,"[CHUNK]{%d,%d} : Spawning entity at {%f,%f}\n",chunk->index.x,chunk->index.y,entity->position.x,entity->position.y);
+  return;
 
 
 }

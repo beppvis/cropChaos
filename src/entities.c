@@ -2,6 +2,7 @@
 #include "gamestd.h"
 #include <stdio.h>
 
+
 const char *file_paths[NUM_ENTITIES - 1] = {
     "../assets/grass.png", "../assets/grass.png", "../assets/grass.png"};
 
@@ -27,6 +28,17 @@ void initEntityManager(Chunk *chunk, Texture2D *entitiesTexture) {
   EntityManager *entityManager = &chunk->entityManager;
   entityManager->num_entites = 0;
 }
+
+
+Entity getTestEntity(Vector2 position)
+{
+  return (Entity) {
+    LoadTexture("../assets/bread.png"),
+    NULL_ENTITY,
+    position
+  };
+}
+
 
 void initEntities(Entity *entities, int num,
                   Texture2D entities_text[NUM_ENTITIES]) {
