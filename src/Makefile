@@ -23,6 +23,7 @@ ifeq ($(PLATFORM_OS),OSX)
 endif
 
 run: compile
+	@echo "Runnning the binary"
 	./build/cropchaos
 
 clean:

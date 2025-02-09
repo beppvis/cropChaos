@@ -20,7 +20,7 @@
 #define MAX_ENTITIES  100
 
 // this init should vary on user settings 
-#define INIT_CHUNK_NUM 6 
+#define INIT_CHUNK_NUM 3 
 #define CHUNK_SIZE 20
 #define CHUNK_LIMIT_X  (TILE_MAX_X*INIT_CHUNK_NUM)/CHUNK_SIZE
 #define CHUNK_LIMIT_Y  (TILE_MAX_Y*INIT_CHUNK_NUM)/CHUNK_SIZE
@@ -101,18 +101,17 @@ typedef struct TileManager{
 typedef struct
 {
   TileManager tileManger;
-  EntityManager entitiyManager;
+  EntityManager entityManager;
   bool render;
   Vector2i index;
 }Chunk ;
-
   
 
 typedef struct
 {
 
   Chunk Chunks[CHUNK_LIMIT_Y][CHUNK_LIMIT_X];
-  Texture2D entitiyTextures[NUM_ENTITIES];
+  Texture2D entityTextures[NUM_ENTITIES];
 }World;
 
 typedef struct Player

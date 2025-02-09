@@ -10,9 +10,8 @@ enum ItemTypes
 enum EntityType
 {
   NULL_ENTITY,
-  BLOCK,
-  ITEM,
-  ENEMY,
+  BLOCK_ENTITY,
+  ITEM_ENTITY,
   NUM_ENTITIES,
 }EntityType;
 

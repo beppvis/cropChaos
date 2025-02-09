@@ -22,11 +22,10 @@ void updatePlayer(Player *player ,float delta)
   if (num_of_interaction){
     
   }
-  
-  playerMovement(player,delta);
+  if (!player->inMenu)
+    playerMovement(player,delta);
   updateInventory(player);
-  updateHunger(player, delta);
-  playerMenuHandler(&player->inventory);
+  playerMenuHandler(player);
   if (player->hunger >= 100) player->gameOver = true;
 }
 
@@ -120,9 +119,9 @@ void renderHand(Player *player)
 
 void renderHUD(Player *player)
 {
-  char s[50];
-  sprintf(s,"Hunger : %f" ,player->hunger);
-  DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
+  // char s[50];
+  // sprintf(s,"Hunger : %f" ,player->hunger);
+  // DrawTextPro(GetFontDefault(),s,(Vector2){10,10}, (Vector2){0,0}, 0, 40, 2,WHITE );
   renderInventory(*player);
 }
 

@@ -1,4 +1,5 @@
 #include "world.h"
+#include "gamestd.h"
 #include "tilemap.h"
 #include <stddef.h>
 #include <stdio.h>
@@ -10,7 +11,7 @@ void initWorld(World *world)
 {
   clock_t begin = clock();
   Texture2D entities_texture[NUM_ENTITIES];
-  loadTextureEntities(&world->entitiyTextures[0]);
+  loadTextureEntities(&world->entityTextures[0]);
 
   printf("RUN \n");
 
@@ -22,7 +23,7 @@ void initWorld(World *world)
 
       Vector2i chunk_index = {c_x,c_y};
       Chunk *chunk = &world->Chunks[chunk_index.y][chunk_index.x]; 
-      initChunk(chunk,chunk_index,world->entitiyTextures);
+      initChunk(chunk,chunk_index,world->entityTextures);
       placeTilesInChunk(chunk);
 
       // printf("INIT Chunk (%zd,%zd) FINISHED \n",c_y,c_x);
@@ -48,32 +49,40 @@ void initChunk(Chunk *chunk,Vector2i chunk_index,Texture2D *entities_texture)
 void initTilemanager(Chunk *chunk)
 {
   TileManager *tileManager = &chunk->tileManger;
-  int i = 0 ;
-  for (int y = 0; y<TILE_MAX_Y; y ++)
+  for (int y = 0 ; y<TILE_MAX_Y; y ++)
   {
-    for (int x = 0; x<TILE_MAX_X; x ++)
+    for (int x = 0 ; x<TILE_MAX_X; x ++)
     {
-        Tile tile = {
-          .index= (Vector2i){x,y},
-          .position = (Vector2){x*50,y*50},
+      Tile tile = {
+          .index = (Vector2i){x, y},
+          .position = (Vector2){(x * 50) +(50*CHUNK_SIZE* chunk->index.x),
+                                (y * 50) + (50*CHUNK_SIZE* chunk->index.y)},
           .terrainType = NULL_TILE,
-          .possibilites = {1,1,1,1},
-        };
-        tileManager->tiles[y][x]= tile;
-        i ++;
+          .possibilites = {1, 1, 1, 1},
+      };
+      tileManager->tiles[y][x] = tile;
     }
   }
 }
 
 
+void renderChunkDebug(Chunk *chunk)
+{
+  Rectangle chunk_rec = {50*CHUNK_SIZE* chunk->index.x ,50*CHUNK_SIZE* chunk->index.y,50*CHUNK_SIZE,50*CHUNK_SIZE};
+  DrawRectangleLinesEx(chunk_rec, 2.0, RED);
+  //DrawRectangleRec(chunk_rec, RED);
+  char out[100];
+  sprintf(out,"%d,%d",chunk->index.x,chunk->index.y);
+  DrawText(out,50*CHUNK_SIZE* chunk->index.x +10,50*CHUNK_SIZE* chunk->index.y+10,100,BLUE);
+}
+
+
+
 void renderChunk(Chunk *chunk)
 {
   renderTiles(&chunk->tileManger); 
-  int static render_nums =  0; 
-  if  (render_nums < 1){
-      renderEntities(&chunk->entitiyManager);
-      render_nums++;
-  }
+  renderEntities(&chunk->entityManager);
+  if (IsKeyDown(DBG_KEY)) renderChunkDebug(chunk);
 }
 
 void renderWorld(World *world)
@@ -92,16 +101,43 @@ void renderWorld(World *world)
   printf("Render Time take : %f\n",time_take);
 }
 
-Chunk getChunkWithPos(World *world, Vector2 position)
+Chunk *getChunkWithIndex(World *world, Vector2i index)
 {
-  Chunk chunk;
   // position -> chunk cords
-  printf("CHUNKS : %f : %f\n" ,position.x,position.y);
   // return chunk
-  return chunk;
+
+  // Validating if the given index is within the bound 
+  if ((index.x * index.y) >= sizeof(world->Chunks))
+    return NULL;
+
+  return &world->Chunks[index.y][index.x];
 }
 
-void spawnEntity(World *world,Entity *entity)
-{
-  getChunkWithPos(world,entity->position);
+// To get the chunk Index 
+Vector2i getChunkIndex(World *world,Vector2 position){
+  int x = 0;
+  int y = 0;
+  x = position.x / (CHUNK_SIZE*TILE_SIZE);
+  y = position.y / (CHUNK_SIZE*TILE_SIZE);
+  return (Vector2i) {x,y};
 }
+
+void spawnEntityInWorld(World *world,Entity *entity)
+{
+  Vector2i chunk_i = getChunkIndex(world, entity->position);
+  Chunk* chunk = getChunkWithIndex(world, chunk_i);
+  if (chunk->entityManager.num_entites == MAX_ENTITIES-1) 
+  {
+    fprintf(stderr, "[CHUNK] : Num of entities exceeded \n");
+    return;
+  }
+
+  addEntity(&chunk->entityManager,entity);
+  fprintf(stdout,"[CHUNK]{%d,%d} : Spawning entity at {%f,%f}\n",chunk->index.x,chunk->index.y,entity->position.x,entity->position.y);
+  return;
+}
+
+
+
+
+

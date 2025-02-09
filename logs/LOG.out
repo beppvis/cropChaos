@@ -1,0 +1,588 @@
+INFO: Initializing raylib 5.5
+INFO: Platform backend: DESKTOP (GLFW)
+INFO: Supported raylib modules:
+INFO:     > rcore:..... loaded (mandatory)
+INFO:     > rlgl:...... loaded (mandatory)
+INFO:     > rshapes:... loaded (optional)
+INFO:     > rtextures:. loaded (optional)
+INFO:     > rtext:..... loaded (optional)
+INFO:     > rmodels:... loaded (optional)
+INFO:     > raudio:.... loaded (optional)
+INFO: DISPLAY: Device initialized successfully
+INFO:     > Display size: 1728 x 1117
+INFO:     > Screen size:  500 x 800
+INFO:     > Render size:  500 x 800
+INFO:     > Viewport offsets: 0, 0
+INFO: GLAD: OpenGL extensions loaded successfully
+INFO: GL: Supported extensions count: 43
+INFO: GL: OpenGL device information:
+INFO:     > Vendor:   Apple
+INFO:     > Renderer: Apple M4 Max
+INFO:     > Version:  4.1 Metal - 89.3
+INFO:     > GLSL:     4.10
+INFO: GL: VAO extension detected, VAO functions loaded successfully
+INFO: GL: NPOT textures extension detected, full NPOT textures supported
+INFO: GL: DXT compressed textures supported
+INFO: PLATFORM: DESKTOP (GLFW - Cocoa): Initialized successfully
+INFO: TEXTURE: [ID 1] Texture loaded successfully (1x1 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 1] Default texture loaded successfully
+INFO: SHADER: [ID 1] Vertex shader compiled successfully
+INFO: SHADER: [ID 2] Fragment shader compiled successfully
+INFO: SHADER: [ID 3] Program shader loaded successfully
+INFO: SHADER: [ID 3] Default shader loaded successfully
+INFO: RLGL: Render batch vertex buffers loaded successfully in RAM (CPU)
+INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
+INFO: RLGL: Default OpenGL state initialized successfully
+INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
+INFO: FONT: Default font loaded successfully (224 glyphs)
+INFO: SYSTEM: Working Directory: /Users/vijind/cropChaos/src
+4
+0
+INFO: FILEIO: [../assets/grass.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 3] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+1
+INFO: FILEIO: [../assets/grass.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 4] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+2
+INFO: FILEIO: [../assets/grass.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 5] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+ENTITIES:  finished loading 
+RUN 
+INIT Chunk (0,0) STARTED
+INIT 1 : STARTED
+INIT 1 : FINISHED
+INIT Chunk (0,1) STARTED
+INIT 2 : STARTED
+INIT 2 : FINISHED
+INIT Chunk (0,2) STARTED
+INIT 3 : STARTED
+INIT 3 : FINISHED
+INIT Chunk (1,0) STARTED
+INIT 4 : STARTED
+INIT 4 : FINISHED
+INIT Chunk (1,1) STARTED
+INIT 5 : STARTED
+INIT 5 : FINISHED
+INIT Chunk (1,2) STARTED
+INIT 6 : STARTED
+INIT 6 : FINISHED
+INIT Chunk (2,0) STARTED
+INIT 7 : STARTED
+INIT 7 : FINISHED
+INIT Chunk (2,1) STARTED
+INIT 8 : STARTED
+INIT 8 : FINISHED
+INIT Chunk (2,2) STARTED
+INIT 9 : STARTED
+INIT 9 : FINISHED
+Total INIT time taken : 0.000136
+INFO: FILEIO: [../assets/player.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 6] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: FILEIO: [../assets/bread.png] File loaded successfully
+INFO: IMAGE: Data loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TEXTURE: [ID 7] Texture loaded successfully (16x16 | R8G8B8A8 | 1 mipmaps)
+INFO: TIMER: Target time per frame: 16.667 milliseconds
+PLAYER : 600 
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000205
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000194
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000198
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000207
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000244
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000231
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000229
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000282
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000257
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000288
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000291
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000334
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000331
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000418
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000479
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000403
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000530
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000569
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000679
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000687
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001107
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001184
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000786
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000687
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000601
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000462
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000579
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000880
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000675
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000616
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000686
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000708
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000703
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000517
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000877
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000785
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000607
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000680
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000573
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000873
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000795
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000542
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000673
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000637
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000566
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000569
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000878
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000953
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000575
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000566
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000865
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000855
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000688
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000718
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000863
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000913
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000869
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000979
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000860
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000622
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001089
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000867
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000684
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000294
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000324
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000287
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000334
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000333
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000503
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000257
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000256
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000285
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000296
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000333
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000332
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000408
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000517
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000946
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000720
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000872
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000901
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000862
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000887
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000730
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000948
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000869
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001215
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001056
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001096
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001222
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001142
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001200
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000856
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000901
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000632
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000599
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001197
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000980
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000864
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000717
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001097
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000802
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000902
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000589
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001282
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001204
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001199
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000903
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000947
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001186
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000998
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000791
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000864
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000920
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+Render Time take : 0.000895
+INFO: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
+INFO: SHADER: [ID 3] Default shader unloaded successfully
+INFO: TEXTURE: [ID 1] Default texture unloaded successfully
+INFO: Window closed successfully

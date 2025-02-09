@@ -6,6 +6,7 @@ I want to move towards Trees and plants
 	ALL HANDS ON CHUNKS
 
 
+
 	I want punch them
 I want to create Trees, plants
 	I want to place shit
@@ -14,4 +15,12 @@ I want to interact with it
 I want to create animal
 
 1) Tile system
-2) 
+
+
+1) Collishions
+2) Entity diff type of Collishions
+
+get the player chunk => active chunk
+    -get entities in chunk 
+        -iterate and find collishions on it
+        -Using type handle collishion

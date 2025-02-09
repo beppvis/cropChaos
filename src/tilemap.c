@@ -147,8 +147,9 @@ void renderTiles(TileManager *tileManager)
       char sIndex[50];
 
       if (!IsKeyDown(DBG_KEY)) continue;
-      sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
-      DrawRectangleLines(tile.position.x,tile.position.y ,TILE_SIZE,TILE_SIZE, RED);
+      //sprintf(sIndex,"(%d,%d)",tile.index.y,tile.index.x );
+      sprintf(sIndex,"(%.1f,%.1f)",tile.position.y,tile.position.x );
+      //DrawRectangleLines(tile.position.x,tile.position.y ,TILE_SIZE,TILE_SIZE, RED);
       DrawText(sIndex,tile.position.x, tile.position.y, 10, YELLOW);
     }
   }
