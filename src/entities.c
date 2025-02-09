@@ -82,3 +82,6 @@ void addEntity(EntityManager* entityManager , Entity* entity)
 
 
 
+
+
+
