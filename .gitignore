@@ -1,2 +1,2 @@
-./logs/
-./src/build/
+./logs/*
+./src/build/*

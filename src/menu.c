@@ -16,7 +16,7 @@ void playerMenuHandler(Player *player)
     player->inMenu = true;
     return;
   }
-  else if(inv->menu_open&& IsKeyPressed(KEY_Q))
+  else if(inv->menu_open && IsKeyPressed(KEY_Q))
   {
     inv->menu_open = false;
     player->inMenu = false;
@@ -105,6 +105,7 @@ void inventoryMouseInteraction(Player *player,Camera2D *camera)
           Entity dropped_item_entity = itemToEntity(inventory->slots[inventory->item_grabbed_index], player->position);
           spawnEntityInWorld(player->world, &dropped_item_entity);
           inventory->slots[inventory->item_grabbed_index] =getNullItem() ;
+          return;
         }
       }
     }

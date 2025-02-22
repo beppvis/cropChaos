@@ -14,13 +14,11 @@ void initWorld(World *world)
   Texture2D entities_texture[NUM_ENTITIES];
   loadTextureEntities(&world->entityTextures[0]);
 
-  printf("RUN \n");
-
   for (int c_y = 0; c_y < CHUNK_LIMIT_Y;c_y ++)
   {
     for (int c_x = 0; c_x < CHUNK_LIMIT_X;c_x ++)
     {
-      printf("INIT Chunk (%d,%d) STARTED\n",c_y,c_x);
+      fprintf(stdout,"INIT Chunk (%d,%d) STARTED\n",c_y,c_x);
 
       Vector2i chunk_index = {c_x,c_y};
       Chunk *chunk = &world->Chunks[chunk_index.y][chunk_index.x]; 
@@ -33,18 +31,18 @@ void initWorld(World *world)
   }
   clock_t end = clock();
   double time_spent = (double)(end-begin)/CLOCKS_PER_SEC;
-  printf("Total INIT time taken : %f\n",time_spent);
+  fprintf(stdin,"Total INIT time taken : %f\n",time_spent);
 }
 
 void initChunk(Chunk *chunk,Vector2i chunk_index,Texture2D *entities_texture)
 {
   static int init_num = 0 ;
   init_num ++;
-  printf("INIT %d : STARTED\n",init_num);
+  fprintf(stdout,"INIT %d : STARTED\n",init_num);
   chunk->index = chunk_index;
   initTilemanager(chunk);
   initEntityManager(chunk,entities_texture);
-  printf("INIT %d : FINISHED\n",init_num);
+  fprintf(stdout,"INIT %d : FINISHED\n",init_num);
 }
 
 void initTilemanager(Chunk *chunk)
@@ -71,7 +69,7 @@ void renderChunkDebug(Chunk *chunk)
 {
   Rectangle chunk_rec = {50*CHUNK_SIZE* chunk->index.x ,50*CHUNK_SIZE* chunk->index.y,50*CHUNK_SIZE,50*CHUNK_SIZE};
   DrawRectangleLinesEx(chunk_rec, 2.0, RED);
-  //DrawRectangleRec(chunk_rec, RED);
+
   char out[100];
   sprintf(out,"%d,%d",chunk->index.x,chunk->index.y);
   DrawText(out,50*CHUNK_SIZE* chunk->index.x +10,50*CHUNK_SIZE* chunk->index.y+10,100,BLUE);
@@ -83,16 +81,16 @@ void renderChunk(Chunk *chunk)
 {
   renderTiles(&chunk->tileManger); 
   renderEntities(&chunk->entityManager);
+
   if (IsKeyDown(DBG_KEY)) renderChunkDebug(chunk);
 }
 
 
 void updateWorld(World *world,Player *player)
 { 
- 
   Vector2i playerChunkIndex = getChunkIndex(world,player->position);
+  fprintf(stdout,"[CHUNK] Updating chunk with index  : %d ,%d \n",playerChunkIndex.x,playerChunkIndex.y);
   updateChunk(getChunkWithIndex(world, playerChunkIndex),player);
-
 }
 
 
@@ -107,28 +105,27 @@ void updateChunk(Chunk *chunk, Player *player)
     Entity* entity = &chunk->entityManager.Entities[i];
     if (entity->entityType==NULL_ENTITY)
       continue;
+    j ++;
     Rectangle entity_hit_box = (Rectangle){entity->position.x,entity->position.y, entity->sprite.width, entity->sprite.height}; 
     Rectangle player_hit_box = (Rectangle){player->position.x,player->position.y,player->size.width,player->size.height};
     if (isColliding(player_hit_box, entity_hit_box)&&!player->inMenu)
     {
+      Item item;  
+      fprintf(stdout,"Player entity collishion detected");
       switch (entity->entityType) {
         case ITEM_ENTITY:
-          Item item = entityToItem(*entity);
-          addItemToInventory( item, &player->inventory);
+          item = entityToItem(*entity);
+          addItemToInventory(item, &player->inventory);
           *entity = getTestEntity(player->position);
           break;
         default:
           break;
       }
-
-
+      return; // WARNING: this is just for testing item pickup
     }
-    j ++;
-
-
   }
 
-
+  return;
 }
 
 
