@@ -1,2 +1,3 @@
-./logs/*
+./logs/LOG.out
+./logs/LOGE.out
 ./src/build/*
