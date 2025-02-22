@@ -21,7 +21,9 @@ Rectangle getRect(Vector2 position,Size size)
 bool isColliding(Rectangle rectA, Rectangle rectB)
 {
   if (rectB.x >= rectA.x && rectB.x <= rectA.x+rectB.width && rectB.y >= rectA.y && rectB.y <= rectA.y+rectB.height)
+  {
     return true;
+  }
   return false;
 
 }
