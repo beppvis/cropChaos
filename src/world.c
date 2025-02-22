@@ -1,5 +1,6 @@
 #include "world.h"
 #include "gamestd.h"
+#include "items.c"
 #include "tilemap.h"
 #include <stddef.h>
 #include <stdio.h>
@@ -84,6 +85,52 @@ void renderChunk(Chunk *chunk)
   renderEntities(&chunk->entityManager);
   if (IsKeyDown(DBG_KEY)) renderChunkDebug(chunk);
 }
+
+
+void updateWorld(World *world,Player *player)
+{ 
+ 
+  Vector2i playerChunkIndex = getChunkIndex(world,player->position);
+  updateChunk(getChunkWithIndex(world, playerChunkIndex),player);
+
+}
+
+
+void updateChunk(Chunk *chunk, Player *player)
+{
+  if(chunk->entityManager.num_entites==0)
+    return;
+  int j = 0; // actual no of entities  
+  int i = 0;
+  while (j < chunk->entityManager.num_entites) {
+    i++;  
+    Entity* entity = &chunk->entityManager.Entities[i];
+    if (entity->entityType==NULL_ENTITY)
+      continue;
+    Rectangle entity_hit_box = (Rectangle){entity->position.x,entity->position.y, entity->sprite.width, entity->sprite.height}; 
+    Rectangle player_hit_box = (Rectangle){player->position.x,player->position.y,player->size.width,player->size.height};
+    if (isColliding(player_hit_box, entity_hit_box)&&!player->inMenu)
+    {
+      switch (entity->entityType) {
+        case ITEM_ENTITY:
+          Item item = entityToItem(*entity);
+          addItemToInventory( item, &player->inventory);
+          *entity = getTestEntity(player->position);
+          break;
+        default:
+          break;
+      }
+
+
+    }
+    j ++;
+
+
+  }
+
+
+}
+
 
 void renderWorld(World *world)
 {

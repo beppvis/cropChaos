@@ -4,6 +4,7 @@
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
+#include "world.h"
 #include <stdatomic.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -57,6 +58,9 @@ int main() {
     BeginDrawing();
     ClearBackground(BLACK);
     BeginMode2D(camera);
+
+
+    updateWorld(&world,&player);
 
     renderWorld(&world);
     renderPlayer(&player, &camera);

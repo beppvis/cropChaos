@@ -27,7 +27,6 @@ void playerMenuHandler(Player *player)
 
 void renderInventoryMenu(Player *player)
 {
-
   //rendering layout boxes
 
   Vector2 pos ={0};

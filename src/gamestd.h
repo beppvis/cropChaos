@@ -37,20 +37,6 @@
 const char *ASSETS_PATH = "../assets";
 
 
-typedef struct Entity
-{
-  Texture2D sprite;
-  int entityType;
-  Vector2 position;
-}Entity;
-
-
-typedef struct 
-{
-  Entity Entities[MAX_ENTITIES];
-  int num_entites;
-}EntityManager;
-
 typedef struct 
 {
   float width;
@@ -75,9 +61,24 @@ typedef struct
   enum ItemTypes itemType;  
   ItemAttribute itemAttribute;
   Texture2D sprite;
-  Color color;
   Vector2 inv_pos;
 } Item;
+
+typedef struct 
+{
+  Texture2D sprite;
+  enum EntityType entityType;
+  Vector2 position;
+  enum ItemTypes itemType;
+  ItemAttribute itemAttribute;
+}Entity;
+
+
+typedef struct 
+{
+  Entity Entities[MAX_ENTITIES];
+  int num_entites;
+}EntityManager;
 
 typedef struct Inventory
 {
@@ -144,6 +145,7 @@ typedef struct
 
 Rectangle getRect(Vector2 position,Size size);
 bool isInside(int size_A,Vector2 posA ,Vector2 posB);
+bool isColliding(Rectangle rectA, Rectangle rectB);
 int flip_h(Rectangle *sourceRect);
 int LogIt(char *TAG,char *message, ...);
 //THOUGHTS: I kinda think its unnnecesay

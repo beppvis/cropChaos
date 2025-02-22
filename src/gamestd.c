@@ -1,6 +1,7 @@
 #include "gamestd.h"
 #include "../include/raylib.h"
 #include <stdarg.h>
+#include <stdbool.h>
 #include <stdio.h>
 #include <string.h>
 
@@ -14,6 +15,15 @@ int DebugIndex = 0;
 Rectangle getRect(Vector2 position,Size size)
 {
   return (Rectangle) {position.x,position.y,size.width,size.height};
+}
+
+
+bool isColliding(Rectangle rectA, Rectangle rectB)
+{
+  if (rectB.x >= rectA.x && rectB.x <= rectA.x+rectB.width && rectB.y >= rectA.y && rectB.y <= rectA.y+rectB.height)
+    return true;
+  return false;
+
 }
 
 bool isInside(int size_A,Vector2 posA,Vector2 posB)

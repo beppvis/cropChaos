@@ -13,7 +13,6 @@ void loadTextureEntities(Texture2D *entities_texture) {
   printf("%d\n", NUM_ENTITIES);
   // NO IDEA ON WHY THIS IS NEEDED
   for (int i = 0; i < NUM_ENTITIES - 1; i++) {
-
     printf("%d\n", i);
     *entities_texture = LoadTexture(file_paths[i]);
     entities_texture++;
@@ -40,6 +39,14 @@ Entity getTestEntity(Vector2 position)
     NULL_ENTITY,
     position
   };
+}
+
+
+Entity getNullEntity()
+{
+  Entity entity ;
+  
+  return entity;
 }
 
 

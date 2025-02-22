@@ -80,11 +80,6 @@ void numToInventorySlot(Player *player,int key)
   }
 }
 
-bool isColliding(Rectangle A, Rectangle B)
-{
-  return CheckCollisionRecs(A,B);
-}
-
 void renderPlayer(Player *player, Camera2D *camera)
 {
   //Body
@@ -223,4 +218,6 @@ void initInventory(Player *player)
   player->MainHand = 0;
   player->OffHand = 1;
 }
+
+
 
