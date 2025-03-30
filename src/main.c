@@ -8,21 +8,38 @@
 #include <stdatomic.h>
 #include <stdbool.h>
 #include <stdio.h>
+#include <string.h>
 
 
 // WARNING: the following line are position dependent
 #define RAYGUI_IMPLEMENTATION
 #include "../include/raygui.h"
 
+bool LOG = true; 
+
 /*
   DIRT --> WATER & GRASS,
   GRASS --> DIRT,
   WATER --> DIRT,
 */
-int main() {
+int main(int argc, char *argv[]) {
+  if (argc > 1)
+  {
+    for(int i =1 ; i < argc-1; i ++)
+    {
+      fprintf(stdout, "command line argument : %s \n",argv[i]);
+      if (strcmp(argv[i], "--no-log"))
+        LOG=false;
+    }
+  }
 
-  // freopen("../logs/LOG.out","w", stdout);
-  freopen("../logs/LOGE.out", "w", stderr);
+  if (LOG)
+  {
+    freopen("../logs/LOG.out","w", stdout);
+    freopen("../logs/LOGE.out", "w", stderr);
+  }
+
+  
 
   // WARNING: wierd sizes on MAC and LINUX
   const Size screenSize = {500, 800};

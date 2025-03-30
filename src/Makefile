@@ -24,7 +24,12 @@ endif
 
 run: compile
 	@echo "Runnning the binary"
+	./build/cropchaos --no-log
+
+test: compile
+	@echo "Runnning the binary"
 	./build/cropchaos
+
 
 clean:
 	@echo "Cleaning build..."
