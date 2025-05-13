@@ -39,7 +39,6 @@ int main(int argc, char *argv[]) {
     freopen("../logs/LOGE.out", "w", stderr);
   }
 
-  
 
   // WARNING: wierd sizes on MAC and LINUX
   const Size screenSize = {500, 800};

@@ -20,6 +20,7 @@ ifeq ($(PLATFORM_OS),LINUX)
 endif
 ifeq ($(PLATFORM_OS),OSX)
 	${cc} -o ./build/cropchaos ./main.c -I"../include/" ${pkg_config} -L"./build/" 
+	${cc} -o ./build/cropchaosTest ./test/test_ecs.c -I"../include/" ${pkg_config} -L"./build/" 
 endif
 
 run: compile
@@ -28,7 +29,7 @@ run: compile
 
 test: compile
 	@echo "Runnning the binary"
-	./build/cropchaos
+	./build/cropchaosTest
 
 
 clean:
