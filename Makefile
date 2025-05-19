@@ -1,4 +1,3 @@
-
 .PHONY: compile clean
 
 
@@ -16,22 +15,21 @@ cc = clang
 compile: 
 	@echo "compiling .. "
 ifeq ($(PLATFORM_OS),LINUX)
-	${cc}  -o ./build/cropchaos ./main.c -lraylib -I"../include/" -lm
+	${cc}  -o ./build/cropchaos ./src/main.c -lraylib -I"./include/" -lm
 endif
 ifeq ($(PLATFORM_OS),OSX)
-	${cc} -o ./build/cropchaos ./main.c -I"../include/" ${pkg_config} -L"./build/" 
-	${cc} -o ./build/cropchaosTest ./test/test_ecs.c -I"../include/" ${pkg_config} -L"./build/" 
+	${cc} -o ./build/cropchaos ./src/main.c -I./include/ ${pkg_config} -L"./build/" 
 endif
 
 run: compile
-	@echo "Runnning the binary"
-	./build/cropchaos --no-log
+	@echo "Running the game ..."
+	cd ./build/ && ./cropchaos
 
 test: compile
-	@echo "Runnning the binary"
+	@echo "Running tests ..."
 	./build/cropchaosTest
 
 
 clean:
 	@echo "Cleaning build..."
-	rm *.o
+	rm ./build/*

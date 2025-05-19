@@ -1,10 +1,10 @@
-#include "../include/raylib.h"
+#include <ray/raylib.h>
+#include <game/gamestd.h>
+#include <game/world.h>
 #include "gamestd.c"
-#include "gamestd.h"
 #include "player.c"
 #include "tilemap.c"
 #include "world.c"
-#include "world.h"
 #include <stdatomic.h>
 #include <stdbool.h>
 #include <stdio.h>
@@ -13,7 +13,7 @@
 
 // WARNING: the following line are position dependent
 #define RAYGUI_IMPLEMENTATION
-#include "../include/raygui.h"
+#include <ray/raygui.h>
 
 bool LOG = true; 
 

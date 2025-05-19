@@ -1,4 +1,4 @@
-#include "../include/raylib.h"
+#include "../ray/raylib.h"
 #include "gamestd.h"
 
 #ifndef items_h

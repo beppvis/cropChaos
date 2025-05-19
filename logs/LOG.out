@@ -35,7 +35,7 @@ INFO: RLGL: Render batch vertex buffers loaded successfully in VRAM (GPU)
 INFO: RLGL: Default OpenGL state initialized successfully
 INFO: TEXTURE: [ID 2] Texture loaded successfully (128x128 | GRAY_ALPHA | 1 mipmaps)
 INFO: FONT: Default font loaded successfully (224 glyphs)
-INFO: SYSTEM: Working Directory: /Users/vijind/cropChaos/src
+INFO: SYSTEM: Working Directory: /Users/vijind/cropChaos/build
 3
 0
 INFO: FILEIO: [../assets/grass.png] File loaded successfully
@@ -84,7 +84,7 @@ PLAYER : 560
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000152
+Render Time take : 0.000150
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
@@ -92,47 +92,35 @@ Render Time take : 0.000154
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000141
+Render Time take : 0.000144
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000135
+Render Time take : 0.000153
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000158
+Render Time take : 0.000183
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000170
+Render Time take : 0.000173
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000240
+Render Time take : 0.000187
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000189
+Render Time take : 0.000193
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000209
+Render Time take : 0.000212
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000205
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000227
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000225
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000251
+Render Time take : 0.000244
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
@@ -140,131 +128,103 @@ Render Time take : 0.000253
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000284
+Render Time take : 0.000254
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000327
+Render Time take : 0.000285
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000348
+Render Time take : 0.000330
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000389
+Render Time take : 0.000395
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000388
+Render Time take : 0.000515
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000467
+Render Time take : 0.000846
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000392
+Render Time take : 0.001188
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000528
+Render Time take : 0.001163
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000666
+Render Time take : 0.000717
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000470
+Render Time take : 0.000235
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000659
+Render Time take : 0.000703
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000593
+Render Time take : 0.001165
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000872
+Render Time take : 0.001160
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000662
+Render Time take : 0.001182
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000923
+Render Time take : 0.001189
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000658
+Render Time take : 0.000680
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001169
+Render Time take : 0.000511
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000852
+Render Time take : 0.000335
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001108
+Render Time take : 0.000333
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000987
+Render Time take : 0.000401
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000921
+Render Time take : 0.000588
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000882
+Render Time take : 0.000815
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001030
+Render Time take : 0.000750
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000999
+Render Time take : 0.000676
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000856
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001147
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001204
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001147
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001148
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001148
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001146
-ADDED ENTRY
-Hunger: 100.000000,100.000000
-[CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000661
+Render Time take : 0.000848
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
@@ -272,27 +232,1191 @@ Render Time take : 0.001162
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001152
+Render Time take : 0.001161
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000720
+Render Time take : 0.001158
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001145
+Render Time take : 0.001159
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000662
+Render Time take : 0.001162
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001186
+Render Time take : 0.000297
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.001149
+Render Time take : 0.000387
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000334
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000336
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000396
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000407
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001538
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001189
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001213
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000472
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001139
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000882
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001399
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001185
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000907
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000767
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000849
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000570
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000527
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000684
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000566
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000398
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000339
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000233
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000197
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000596
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000849
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000508
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000565
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001041
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000874
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000502
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000514
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000511
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000569
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001171
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001030
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000884
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000698
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000717
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000671
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000741
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000864
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001203
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000469
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000508
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000489
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001191
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000559
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000476
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001107
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000532
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000976
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000525
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000525
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000571
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000605
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000481
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000557
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000811
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001006
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000641
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000851
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000885
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000851
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000858
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000796
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000994
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000869
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000764
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001194
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000483
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000570
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001195
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000672
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000516
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000677
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000508
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001174
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000672
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000677
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000578
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000473
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000474
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000460
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000213
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000504
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000571
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000844
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001056
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000965
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000857
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000843
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000889
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000843
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000906
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000457
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001227
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000564
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000538
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000675
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000521
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000776
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001173
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001212
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000879
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001208
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000494
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000918
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001199
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001174
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000665
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000511
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001185
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000467
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001174
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000512
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
@@ -300,7 +1424,4679 @@ Render Time take : 0.001206
 ADDED ENTRY
 Hunger: 100.000000,100.000000
 [CHUNK] Updating chunk with index  : 0 ,0 
-Render Time take : 0.000838
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000521
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001173
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000911
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000781
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000564
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000461
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000486
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000467
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000498
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000478
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000531
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000528
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000473
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000530
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000566
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000564
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000789
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000583
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001079
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000575
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000720
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000484
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000865
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000483
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000902
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001190
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001248
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000512
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001201
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001215
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000553
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000533
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000546
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000596
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000594
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000581
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000609
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000836
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000964
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001272
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001207
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000461
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000461
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000521
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001081
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000487
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000468
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000852
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000573
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001326
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001318
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001204
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001020
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000674
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000465
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000552
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001017
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000482
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000517
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000463
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000469
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000466
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000877
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000469
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000956
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000947
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000678
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000693
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000683
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000670
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000822
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000878
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001033
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001039
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001224
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001219
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001299
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000923
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000953
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001118
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001190
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000721
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000759
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000551
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000511
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000564
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000502
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000944
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001198
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000492
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000489
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000508
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001184
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000853
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000590
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001241
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001240
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001186
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001265
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001189
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000907
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001013
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000759
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000856
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001204
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001185
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001202
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001197
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000855
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000853
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001236
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001212
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001250
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001312
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001239
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000962
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000913
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000866
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000893
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001412
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001126
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001116
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000873
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000740
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000751
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000468
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000469
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000877
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000472
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000903
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000694
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000699
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000688
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000677
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000575
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000572
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000578
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000588
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000530
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000542
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000576
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000539
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000969
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001229
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001230
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001142
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000907
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000977
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000510
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000462
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000490
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001079
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000503
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000806
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000675
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000678
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000853
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000757
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000852
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000851
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000851
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000700
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000947
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000897
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001225
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001198
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001188
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001251
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000970
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000762
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000797
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000474
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000518
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000478
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000480
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001204
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001194
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001206
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001206
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001196
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000479
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001171
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000460
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000857
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001267
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000488
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001279
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001190
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000868
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000854
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000906
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000979
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001185
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001024
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000479
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000521
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001009
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000469
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000732
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000465
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000478
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000523
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000468
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000514
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001184
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000889
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001187
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001213
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000680
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000873
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000852
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000856
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000931
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000883
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001211
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001117
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001321
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000535
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000831
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000477
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001212
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000472
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000466
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000946
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000460
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001154
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001153
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000682
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000563
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001174
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001187
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000683
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000628
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000935
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000841
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001477
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000652
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000589
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000455
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000463
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001074
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000796
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001171
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001224
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000635
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000468
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000566
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000474
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001153
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001057
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000476
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000708
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000571
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001196
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000853
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000506
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000563
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000680
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000490
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000737
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001071
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001064
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001172
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000508
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001203
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001182
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001171
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000503
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000562
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000793
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001214
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000623
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000462
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000859
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001184
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001136
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000476
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000506
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001383
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000475
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001189
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000851
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000688
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000675
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000723
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000404
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000586
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000586
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000476
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000672
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001533
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000318
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000335
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000346
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000440
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000619
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000605
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000465
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001212
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001218
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001205
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000891
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000693
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000576
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000540
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001143
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001026
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000995
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000674
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000849
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000852
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001100
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000849
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001064
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000865
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001184
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001203
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000683
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001245
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000938
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000672
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000259
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000336
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000289
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000335
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000398
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000516
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000737
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000575
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000513
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000854
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000664
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001153
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000873
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000934
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000883
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000699
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000854
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000570
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000466
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000572
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000470
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000791
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000467
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000968
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000859
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000899
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000845
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001153
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001188
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000854
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000870
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000572
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000464
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001515
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001008
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001054
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001085
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001168
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001200
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000664
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000664
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001215
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001121
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001186
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001384
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000594
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000867
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000569
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000461
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000567
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000852
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000926
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000665
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000994
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001476
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001073
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001182
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001211
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000578
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000844
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001272
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000962
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000847
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001232
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001261
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001281
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001285
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001237
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000801
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000846
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000697
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000672
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001019
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000679
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000844
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001190
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001330
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001273
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000951
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000844
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001190
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000668
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001023
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001292
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001388
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001089
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000996
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001208
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000662
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001208
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000607
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000578
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000863
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001169
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000685
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001037
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000670
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000850
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001396
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001108
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001225
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001170
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000674
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001215
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001009
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000863
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001173
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001123
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001180
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000681
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000756
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000471
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001188
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001218
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001061
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001288
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001187
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001157
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000513
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000843
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001155
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001166
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001173
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000666
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000698
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001173
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001187
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000669
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000848
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000579
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001178
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001177
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001183
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001175
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001167
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001179
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001176
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001182
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.000667
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001159
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001158
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001162
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001156
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001181
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001163
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001160
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001164
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001161
+ADDED ENTRY
+Hunger: 100.000000,100.000000
+[CHUNK] Updating chunk with index  : 0 ,0 
+Render Time take : 0.001165
 INFO: TEXTURE: [ID 2] Unloaded texture data from VRAM (GPU)
 INFO: SHADER: [ID 3] Default shader unloaded successfully
 INFO: TEXTURE: [ID 1] Default texture unloaded successfully

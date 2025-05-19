@@ -1,7 +1,8 @@
-#include "world.h"
-#include "gamestd.h"
+#include <game/world.h>
+#include <game/gamestd.h>
+#include <game/tilemap.h>
 #include "items.c"
-#include "tilemap.h"
+#include "entities.c"
 #include <stddef.h>
 #include <stdio.h>
 #include <time.h>

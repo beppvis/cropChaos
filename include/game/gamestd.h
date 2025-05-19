@@ -1,10 +1,10 @@
 #ifndef game_std_h_
 #define game_std_h_
 
-#include "../include/raylib.h"
-#include "../include/raymath.h"
+#include "../ray/raylib.h"
+#include "../ray/raymath.h"
+#include "../../src/enums.c" // TODO : If you wanna try and remove this requirement
 #include "stdio.h"
-#include "enums.c"
 
 #define DBG_KEY KEY_E
 #define ITEM_WORLD_SIZE 20

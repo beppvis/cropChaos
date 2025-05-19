@@ -1,5 +1,5 @@
-#include "tilemap.h"
-#include "gamestd.h"
+#include <game/tilemap.h>
+#include <game/gamestd.h>
 #include <stdio.h>
 
 int getNumOfPossibilites(Tile *tile)

@@ -1,5 +1,5 @@
-#include "gamestd.h"
-#include "../include/raylib.h"
+#include <game/gamestd.h>
+#include <ray/raylib.h>
 #include <stdarg.h>
 #include <stdbool.h>
 #include <stdio.h>

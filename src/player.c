@@ -1,12 +1,13 @@
-#include "player.h"
-#include "gamestd.h"
-#include "menu.c"
-#include "menu.h"
+#include <game/player.h>
+#include <game/gamestd.h>
+#include <game/menu.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include "menu.c"
+#include "items.c"
 
-#define CAM_LIM 2  
+#define CAM_LIM 2
 #define CAM_LIM_MAX 160
 #define MIN_HUNGER_TICK  1
 

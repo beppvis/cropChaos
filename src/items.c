@@ -1,8 +1,8 @@
 #ifndef item_c 
 #define item_c 
-#include "items.h"
-#include "gamestd.h"
-#include "../include/raylib.h"
+#include <game/items.h>
+#include <game/gamestd.h>
+#include <ray/raylib.h>
 #include <stdio.h>
 
 Color getItemColor(Item item)

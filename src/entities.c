@@ -1,5 +1,5 @@
-#include "entities.h"
-#include "gamestd.h"
+#include <game/entities.h>
+#include <game/gamestd.h>
 #include <stdio.h>
 
 

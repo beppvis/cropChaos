@@ -1,4 +1,4 @@
-#include "ecs.h"
+#include <game/ecs.h>
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,14 +8,14 @@
   with 100 entities
   and 100 items 
   */
-ECS_World createWorld()
+ECS_World InitWorld()
 {
   return (ECS_World) {
-    .entities = malloc(sizeof(ECS_Entity)*100), // 100 entities
-    .no_entities = 100,
+    .entities = {},
+    .no_entities = 0,
     .itemTable = (ECS_Items_Table){
-      .items = malloc(sizeof(ECS_Item)*100), // 100 items
-      .no_items = 100 
+      .items = {},
+      .no_items = 0 
     }
   };
 }
@@ -23,7 +23,7 @@ ECS_World createWorld()
 /*
   * returns entity ID (size_t)
   */
-size_t createEntity(ECS_World *world,char* texutre_path,Vector2 position)
+size_t CreateEntity(ECS_World *world,char* texutre_path,Vector2 position)
 {
   size_t prev_id = 0;
   size_t id ;
@@ -56,7 +56,7 @@ int destroyEntity(ECS_World *world,size_t entityId){
   return -1;
 }
 
-size_t createItem(ECS_Items_Table *itemTable,enum ItemTypes itemType ,Vector2 inv_position){
+size_t CreateItem(ECS_Items_Table *itemTable,enum ItemTypes itemType ,Vector2 inv_position){
   size_t prev_id = 0;
   size_t id = 0;
   for (int i = 0 ; i < itemTable->no_items ; i++){

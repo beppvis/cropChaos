@@ -1,7 +1,7 @@
-#include "menu.h"
-#include "gamestd.h"
-#include "player.h"
-#include "world.h"
+#include <game/menu.h>
+#include <game/gamestd.h>
+#include <game/player.h>
+#include <game/world.h>
 #include <stdint.h>
 #include <stdio.h>
 

@@ -1,4 +1,4 @@
-#include "../include/raylib.h"
+#include <ray/raylib.h>
 #include <stddef.h>
 #include "gamestd.h"
 #include "items.h"
@@ -27,12 +27,12 @@ typedef struct {
 } ECS_World;
 
 
-ECS_World createWorld();
+ECS_World InitWorld();
 int destroyWorld(ECS_World *world);
 
-size_t createEntity(ECS_World *world,char* texutre_path,Vector2 position);
+size_t CreateEntity(ECS_World *world,char* texutre_path,Vector2 position);
 int destroyEntity(ECS_World *world,size_t entityID);
-size_t createItem(ECS_Items_Table *table,enum ItemTypes itemType ,Vector2 inv_position);
+size_t CreateItem(ECS_Items_Table *table,enum ItemTypes itemType ,Vector2 inv_position);
 int destroyItem(ECS_World *world,size_t itemID);
 
 

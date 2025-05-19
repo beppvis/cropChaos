@@ -2,12 +2,12 @@
 #define player_h
 
 
-#include "../include/raylib.h"
-#include "../include/raymath.h"
+#include "../ray/raylib.h"
+#include "../ray/raymath.h"
 #include <stdbool.h>
 #include <stdio.h>
 #include "gamestd.h"
-#include "items.c"
+#include "items.h"
 
 void updatePlayer(Player *player, float delta);
 bool isColliding(Rectangle A, Rectangle B);
