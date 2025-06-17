@@ -1,39 +1,47 @@
 #include <ray/raylib.h>
 #include <stddef.h>
-#include "gamestd.h"
 #include "items.h"
 
-typedef struct {
-  size_t id;
-  Texture2D sprite;
-  Vector2 position;
-} ECS_Entity;
-typedef struct {
-  size_t id;
-  enum ItemTypes itemType;
-  ItemAttribute itemAttribute;
-  Vector2 inv_pos;
-} ECS_Item;
+#define MAX_ARCHETYPES 10
+#define MAX_COMPONENTS 10
 
-typedef struct {
-  ECS_Item *items; 
-  size_t no_items;
-} ECS_Items_Table;
+typedef enum {
+  POSITION,
+  TEXTURE,
+  BOOLEAN,
+  INT,
+}ComponentType;
 
-typedef struct {
-  ECS_Entity *entities;
-  size_t no_entities; 
-  ECS_Items_Table itemTable;
-} ECS_World;
+typedef struct{
+  void* component;
+  ComponentType type;
+  int id;
+} Component;
+
+typedef struct{
+  Component* table;
+} ComponentTable;
+
+typedef struct{
+  ComponentTable* table;
+  Component* type;
+}Archetype;
+
+typedef struct{
+  Archetype* table;
+}ArchetypeTable;
+
+typedef struct{
+  ArchetypeTable* table;
+}ECSWorld ;
 
 
-ECS_World InitWorld();
-int destroyWorld(ECS_World *world);
-
-size_t CreateEntity(ECS_World *world,char* texutre_path,Vector2 position);
-int destroyEntity(ECS_World *world,size_t entityID);
-size_t CreateItem(ECS_Items_Table *table,enum ItemTypes itemType ,Vector2 inv_position);
-int destroyItem(ECS_World *world,size_t itemID);
+ECSWorld createWorld();
+ArchetypeTable createArchetypeTable();
+int getComponentsKey(int n, Component *components);
+int createEntity(ECSWorld* world,int n, Component *components);
+Component* getEntityComponents(int entityId,Component type);
+int findArchetype(ECSWorld* world ,int n,Component *components); 
 
 
 
