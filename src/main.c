@@ -1,6 +1,7 @@
 #include <ray/raylib.h>
 #include <game/gamestd.h>
 #include <game/world.h>
+#include "game/player.h"
 #include "gamestd.c"
 #include "player.c"
 #include "tilemap.c"
@@ -83,9 +84,9 @@ int main(int argc, char *argv[]) {
 
     EndMode2D();
 
-    int out = GuiSlider((Rectangle){10, 10, 100, 10}, "hoo", "hee",
-                        &player.speed, 100.0, 1000.0);
+    
 
+    playerDebugger(&player);
     char debugBuff[100];
     Vector2i chunk_i = getChunkIndex(&world, player.position);
     sprintf(debugBuff, "Player is in CHUNK: %d,%d ", chunk_i.x, chunk_i.y);

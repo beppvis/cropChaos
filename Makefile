@@ -12,18 +12,25 @@ endif
 
 cc = clang
 
-compile: 
-	@echo "compiling .. "
+build: 
+	@echo "Building .. "
 ifeq ($(PLATFORM_OS),LINUX)
+	mkdir -p build
 	${cc}  -o ./build/cropchaos ./src/main.c -lraylib -I"./include/" -lm
 endif
 ifeq ($(PLATFORM_OS),OSX)
+	mkdir -p build
 	${cc} -o ./build/cropchaos ./src/main.c -I./include/ ${pkg_config} -L"./build/" 
 endif
 
-run: compile
+run: clean build
+	@echo "Running the game ..."
+	cd ./build/ && ./cropchaos --no-log
+
+debug: clean build
 	@echo "Running the game ..."
 	cd ./build/ && ./cropchaos
+
 
 test: compile
 	@echo "Running tests ..."
@@ -32,4 +39,4 @@ test: compile
 
 clean:
 	@echo "Cleaning build..."
-	rm ./build/*
+	rm -r ./build/

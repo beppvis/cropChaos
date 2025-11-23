@@ -1,11 +1,13 @@
 #include <game/player.h>
 #include <game/gamestd.h>
 #include <game/menu.h>
+#include <ray/raygui.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include "menu.c"
 #include "items.c"
+#include "ray/raylib.h"
 
 #define CAM_LIM 2
 #define CAM_LIM_MAX 160
@@ -30,6 +32,18 @@ void updatePlayer(Player *player ,float delta)
   if (player->hunger >= 100) player->gameOver = true;
 }
 
+
+void playerDebugger(Player *player){
+  static bool p_toggle = false;
+    fprintf(stdout, "Rendering player DEBUG screen\n");
+  if (IsKeyPressed(KEY_P))
+    p_toggle = !p_toggle;
+  if (p_toggle){
+    fprintf(stderr, "Rendering player DEBUG screen\n");
+    GuiSlider((Rectangle){100,100, 100, 10}, "100.0", "1000.0",
+                        &player->speed, 100.0, 1000.0);
+  }
+}
 
 void playerMovement(Player *player,float delta)
 {

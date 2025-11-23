@@ -1,3 +1,4 @@
+#include "ray/raylib.h"
 #include <game/tilemap.h>
 #include <game/gamestd.h>
 #include <stdio.h>
@@ -119,7 +120,7 @@ void setColor(Tile *tile)
         tile->color = BROWN;
         return;
       case GRASS:
-        tile->color = GREEN;
+        tile->color = LIME;
         return;
       case WATER:
         tile->color = BLUE;
@@ -128,7 +129,7 @@ void setColor(Tile *tile)
         tile->color = YELLOW;
         return;
       default:
-        tile->color = GREEN;
+        tile->color = RED;
         return;
     }
   
@@ -165,7 +166,7 @@ void placeTilesInChunk(Chunk *chunk)
     {
       Vector2i index = {x,y};
       Tile tile = getTile(index, tileManager);
-      tile.terrainType = NULL_TILE;
+      tile.terrainType = GRASS;
       tileManager->tiles[y][x] = tile;
     }
   }
